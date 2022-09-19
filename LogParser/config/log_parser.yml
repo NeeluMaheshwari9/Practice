@@ -1,0 +1,19 @@
+text_match:
+  {
+    Camera_launched: "CameraDeviceClient: CameraDeviceClient 0: Opened",
+    Camera_stopped: "CameraActivity.onPause - STOP",
+    Chrome_launched: "ActivityTaskManager: Displayed com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity",
+    Messaging_launched: "TetheringManager: registerTetheringEventCallback:com.android.messaging",
+    map_launched: "ActivityTaskManager: Displayed com.google.android.apps.maps/com.google.android.maps.MapsActivity",
+    Dialer_launched: "OldMainActivityPeer.onHandleIntent - Show last tab",
+    Gallery_launched: "ActivityTaskManager: Displayed com.android.gallery3d/.app.GalleryActivity",
+    Search_launched: "ActivityTaskManager: Displayed com.android.quicksearchbox/.SearchActivity"
+  }
+
+device: "emulator-5554"
+
+file: "log.txt"
+#file: "C:\Users\admin\PycharmProjects\Practice\LogParser\logs\log.txt"
+
+logfile: "logfile.log"
+#logfile: "C:\Users\admin\PycharmProjects\Practice\LogParser\logs\logfile.log"

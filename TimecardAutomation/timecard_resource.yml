@@ -1,0 +1,29 @@
+execute_path: "C:/drivers/chromedriver_win32/chromedriver.exe"
+
+driver1: "webdriver.Chrome(service=self.service)"
+
+next_button_xpath: "//*[@id='postButton']/a"
+
+timecard_xpath: "//*[contains(text(),'Timecard Summary')]"
+
+adjustment_xpath: "//*[@id='ctl00_Menu1']/ul/li[2]/a"
+
+ping_id_xpath: "//*[@id='pingid-div']/a"
+
+mobilepass_xpath: "//*[@id='mobilepass-div']/a"
+
+mobilepass_sign_on: "// *[ @ id = 'signOnButton']"
+
+save_xpath: "//*[@id='ctl00_ContentPlaceHolder1_btnSave']"
+
+submit_xpath: "// *[ @ id = 'ctl00_ContentPlaceHolder1_btnSubmit']"
+
+back_xpath: "//input[@value='Back']"
+
+new_week_timecard_xpath: "//*[@id='ctl00_ContentPlaceHolder1_grvTimecardSummary_ctl02_lnkTimevcardID']"
+
+new_week_adjustment_xpath: "//*[@id='ctl00_ContentPlaceHolder1_grvApproveTimecard_ctl02_lnkTimevcardID']"
+
+xpath_str1: "//*[@id='ctl00_ContentPlaceHolder1_grvTimeCard_ctl02_txtProject']"
+
+

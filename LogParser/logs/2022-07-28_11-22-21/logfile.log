@@ -1,0 +1,10 @@
+2022-07-28 11:22:22,030:INFO:log_parser:129:List of devices attached 
+emulator-5554	device
+
+
+2022-07-28 11:22:22,030:INFO:log_parser:136:device connected
+2022-07-28 11:22:22,031:INFO:log_parser:138:Erasing older Logs 
+2022-07-28 11:22:22,035:INFO:log_parser:51:Logs started
+2022-07-28 11:22:24,051:INFO:log_parser:63:Start Action
+2022-07-28 11:22:37,390:INFO:log_parser:108:Space key pressed to exit
+2022-07-28 11:22:37,393:INFO:log_parser:160:Program exit

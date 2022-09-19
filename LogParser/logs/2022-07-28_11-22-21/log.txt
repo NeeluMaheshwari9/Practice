@@ -1,0 +1,416 @@
+--------- beginning of main
+07-28 11:22:18.878   208   211 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 11:22:18.876   208   208 W Binder:208_2: type=1400 audit(0.0:106): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 11:22:18.883   208   211 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 11:22:18.880   208   208 W Binder:208_2: type=1400 audit(0.0:107): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+--------- beginning of kernel
+07-28 11:22:21.402     0     0 D logd    : logdr: UID=2000 GID=2000 PID=4426 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+07-28 11:22:29.543  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=956.9641, y[0]=1945.8765, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1426066, downTime=1426066, deviceId=6, source=0x5002, displayId=0 }
+07-28 11:22:29.706  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=956.9641, y[0]=1945.8765, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1426204, downTime=1426066, deviceId=6, source=0x5002, displayId=0 }
+07-28 11:22:29.721  1074  1074 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+--------- beginning of system
+07-28 11:22:29.724   527  4174 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.camera2 cmp=com.android.camera2/com.android.camera.CameraLauncher bnds=[842,1836][1043,2084]} from uid 10109
+07-28 11:22:29.725   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 11:22:29.726   527  1489 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:29.726   527  1489 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:29.727   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 14, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+07-28 11:22:29.728   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=14)
+07-28 11:22:29.743   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.755   527  1489 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:29.758   399   399 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+07-28 11:22:29.747     0     0 W perfetto: enabled ftrace
+07-28 11:22:29.765   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f506d000 0x3f591e000]
+07-28 11:22:29.775  4308  4308 V CAM_QuickActivity: START onRestart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.775  4308  4308 V CAM_QuickActivity: END onRestart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.775  4308  4308 V CAM_QuickActivity: START onStart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.777  4308  4308 V CAM_FilmstripView: recycleView
+07-28 11:22:29.777  4308  4308 V CAM_FilmstripView: suggesting item bounds: 1080x1977
+07-28 11:22:29.777  4308  4308 V CAM_FilmstripView: getRecycledView, recycled=true
+07-28 11:22:29.778  4308  4308 D CAM_FilmstripView: reload() - Ensure all items are loaded at max size.
+07-28 11:22:29.778  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+07-28 11:22:29.779  4308  4308 V CAM_QuickActivity: END onStart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.779  4308  4308 V CAM_QuickActivity: START onNewIntent: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.779  4308  4308 V CAM_QuickActivity: Intent Action = android.intent.action.MAIN
+07-28 11:22:29.780  4308  4308 V CAM_QuickActivity: END onNewIntent: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.780  4308  4308 V CAM_QuickActivity: START onResume: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.780  4308  4308 V CAM_QuickActivity: onResume(): isKeyguardLocked() = false
+07-28 11:22:29.781  4308  4308 V CAM_QuickActivity: onResume --> onResumeTasks()
+07-28 11:22:29.782  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.resume - START
+07-28 11:22:29.782  4308  4308 V CAM_CameraActivity: Build info: sdk_phone_x86-userdebug 11 RSR1.210210.001.A1 7193139 dev-keys
+07-28 11:22:29.789  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.resume - START
+07-28 11:22:29.789  4308  4308 V CAM_Profiler: [  0.287ms][ui] GUARD: CaptureModule.resume - [ 0.017ms] getRemoteShutterListener.onModuleReady
+07-28 11:22:29.790  4308  4308 V CAM_Profiler: [  1.386ms][ui] GUARD: CaptureModule.resume - [ 0.800ms] initSurfaceTextureConsumer
+07-28 11:22:29.791  4308  4435 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.closeCamera() - START
+07-28 11:22:29.791  4308  4435 V CAM_Profiler: [  0.171ms] GUARD: CaptureModule.closeCamera() - [ 0.171ms] mCameraOpenCloseLock.acquire()
+07-28 11:22:29.791  4308  4435 V CAM_Profiler: [  0.238ms] GUARD: CaptureModule.closeCamera() - STOP
+07-28 11:22:29.791  4308  4435 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.openCameraAndStartPreview() - START
+07-28 11:22:29.791  4308  4435 V CAM_Profiler: [  0.064ms] GUARD: CaptureModule.openCameraAndStartPreview() - [ 0.064ms] Acquired mCameraOpenCloseLock
+07-28 11:22:29.791  4308  4435 I CAM_OneCamera1Opnr: Opening Camera: CameraId{Api2='0',Api1:0}
+07-28 11:22:29.792  4308  4435 V CAM_ActvCamDevTrckr: Tracking active camera: CameraId{Api2='0',Api1:0}
+07-28 11:22:29.795   414   606 I CameraService: CameraService::connect call (PID -1 "com.android.camera2", camera ID 0) for HAL version default and Camera API version 2
+07-28 11:22:29.795   414   606 I Camera2ClientBase: Camera 0: Opened. Client: com.android.camera2 (PID 4308, UID 10091)
+07-28 11:22:29.795   414   606 I CameraDeviceClient: CameraDeviceClient 0: Opened
+07-28 11:22:29.796  4308  4308 V CAM_Profiler: [  7.168ms][ui] GUARD: CaptureModule.resume - [ 4.899ms] mHeadingSensor.activate()
+07-28 11:22:29.796  4308  4308 V CAM_Profiler: [  7.168ms][ui] GUARD: CaptureModule.resume - STOP
+07-28 11:22:29.796  4308  4308 V CAM_Profiler: [ 14.826ms][ui] GUARD: CameraActivity.resume - [ 7.431ms] mCurrentModule.resume
+07-28 11:22:29.809  4308  4359 D CAM_Storage: External storage state=mounted
+07-28 11:22:29.810   295  4125 E libc    : Access denied finding property "ro.camera.req.fmq.size"
+07-28 11:22:29.810   295  4125 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.810   295  4125 E libc    : Access denied finding property "ro.camera.res.fmq.size"
+07-28 11:22:29.811   295  4125 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.804   295   295 W HwBinder:295_3: type=1400 audit(0.0:108): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=8302 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+07-28 11:22:29.808   295   295 W HwBinder:295_3: type=1400 audit(0.0:109): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=8302 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+07-28 11:22:29.823  4308  4440 D CCodec  : allocate(c2.android.vorbis.decoder)
+07-28 11:22:29.823   414   606 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.823   438  3588 V C2Store : in init
+07-28 11:22:29.823   438  3588 V C2Store : loading dll
+07-28 11:22:29.825  4308  4440 I CCodec  : Created component [c2.android.vorbis.decoder]
+07-28 11:22:29.825  4308  4440 D CCodecConfig: read media type: audio/vorbis
+07-28 11:22:29.831   414   606 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.837  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+07-28 11:22:29.848  4308  4308 V CAM_Profiler: [ 66.191ms][ui] GUARD: CameraActivity.resume - [ 0.013ms] mPanoramaViewHelper.onResume()
+07-28 11:22:29.848  4308  4308 V CAM_LcyLocProvider: starting location updates
+07-28 11:22:29.855  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-28 11:22:29.856  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-28 11:22:29.856  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-28 11:22:29.856  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+07-28 11:22:29.857  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-28 11:22:29.857  4308  4440 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+07-28 11:22:29.859  4308  4440 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+07-28 11:22:29.860  4308  4440 D CCodecConfig: c2 config diff is Dict {
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   c2::u32 input.delay.value = 0
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   string output.media-type.value = "audio/raw"
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+07-28 11:22:29.860  4308  4440 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+07-28 11:22:29.860  4308  4440 D CCodecConfig: }
+07-28 11:22:29.860  4308  4440 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+07-28 11:22:29.860  4308  4440 D CCodecConfig: no c2 equivalents for durationUs
+07-28 11:22:29.860  4308  4440 D CCodecConfig: no c2 equivalents for track-id
+07-28 11:22:29.861  4308  4440 D CCodecConfig: no c2 equivalents for csd-1
+07-28 11:22:29.861  4308  4440 D CCodecConfig: no c2 equivalents for channel-mask
+07-28 11:22:29.861  4308  4440 D CCodecConfig: no c2 equivalents for flags
+07-28 11:22:29.862  4308  4440 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+07-28 11:22:29.862  4308  4440 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+07-28 11:22:29.863  4308  4440 W Codec2Client: query -- param skipped: index = 1107298332.
+07-28 11:22:29.863  4308  4440 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t channel-count = 2
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t max-input-size = 32768
+07-28 11:22:29.863  4308  4440 D CCodec  :   string mime = "audio/vorbis"
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t sample-rate = 44100
+07-28 11:22:29.863  4308  4440 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t channel-count = 2
+07-28 11:22:29.863  4308  4440 D CCodec  :   string mime = "audio/raw"
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t sample-rate = 44100
+07-28 11:22:29.863  4308  4440 D CCodec  :   int32_t channel-mask = 3
+07-28 11:22:29.863  4308  4440 D CCodec  : }
+07-28 11:22:29.864  4308  4308 D CAM_LcyLocProvider: startReceivingLocationUpdates
+07-28 11:22:29.864  4308  4308 I CAM_Profiler: [ 82.186ms][ui] GUARD: CameraActivity.resume - STOP
+07-28 11:22:29.864  4308  4308 V CAM_QuickActivity: END onResume: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:29.864   527   924 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:29.866  4308  4440 W Codec2Client: query -- param skipped: index = 1342179345.
+07-28 11:22:29.867  4308  4440 W Codec2Client: query -- param skipped: index = 2415921170.
+07-28 11:22:29.867  4308  4440 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.868  4308  4440 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.869   438  3588 D BufferPoolAccessor2.0: bufferpool2 0xef584b98 : 0(0 size) total buffers - 0(0 size) used buffers - 32/35 (recycle/alloc) - 3/34 (fetch/transfer)
+07-28 11:22:29.869   438  3588 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef584b98 cached: 0/0M, 0/0% in use; allocs: 35, 91% recycled; transfers: 34, 91% unfetched
+07-28 11:22:29.869   438  3588 D BufferPoolAccessor2.0: bufferpool2 0xef583fe8 : 0(0 size) total buffers - 0(0 size) used buffers - 15/23 (recycle/alloc) - 8/22 (fetch/transfer)
+07-28 11:22:29.869   438  3588 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef583fe8 cached: 0/0M, 0/0% in use; allocs: 23, 65% recycled; transfers: 22, 64% unfetched
+07-28 11:22:29.870   438  3588 D BufferPoolAccessor2.0: bufferpool2 0xef5819a8 : 0(0 size) total buffers - 0(0 size) used buffers - 28/35 (recycle/alloc) - 7/34 (fetch/transfer)
+07-28 11:22:29.870   438  3588 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef5819a8 cached: 0/0M, 0/0% in use; allocs: 35, 80% recycled; transfers: 34, 79% unfetched
+07-28 11:22:29.870  4308  4440 D CCodecBufferChannel: [c2.android.vorbis.decoder#859] Created input block pool with allocatorID 16 => poolID 22 - OK (0)
+07-28 11:22:29.870   438  3588 D BufferPoolAccessor2.0: bufferpool2 0xef582888 : 0(0 size) total buffers - 0(0 size) used buffers - 25/30 (recycle/alloc) - 5/29 (fetch/transfer)
+07-28 11:22:29.870   438  3588 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef582888 cached: 0/0M, 0/0% in use; allocs: 30, 83% recycled; transfers: 29, 83% unfetched
+07-28 11:22:29.871   438   497 D BufferPoolAccessor2.0: bufferpool2 0xef583658 : 0(0 size) total buffers - 0(0 size) used buffers - 27/30 (recycle/alloc) - 3/29 (fetch/transfer)
+07-28 11:22:29.871   438   497 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef583658 cached: 0/0M, 0/0% in use; allocs: 30, 90% recycled; transfers: 29, 90% unfetched
+07-28 11:22:29.873   438   497 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.873   438   497 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: bufferpool2 0xf40495f8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 9/74 (fetch/transfer)
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf40495f8 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 74, 88% unfetched
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: bufferpool2 0xf4048c68 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 12/50 (fetch/transfer)
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf4048c68 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 50, 76% unfetched
+07-28 11:22:29.874  4308  4440 I CCodecBufferChannel: [c2.android.vorbis.decoder#859] Created output block pool with allocatorID 16 => poolID 48 - OK
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: bufferpool2 0xf404a5e8 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 12/74 (fetch/transfer)
+07-28 11:22:29.874  4308  4347 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf404a5e8 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 74, 84% unfetched
+07-28 11:22:29.875  4308  4440 D CCodecBufferChannel: [c2.android.vorbis.decoder#859] Configured output block pool ids 48 => OK
+07-28 11:22:29.875  4308  4347 D BufferPoolAccessor2.0: bufferpool2 0xf4047fa8 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 11/64 (fetch/transfer)
+07-28 11:22:29.875  4308  4347 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf4047fa8 cached: 0/0M, 0/0% in use; allocs: 9, 33% recycled; transfers: 64, 83% unfetched
+07-28 11:22:29.875  4308  4347 D BufferPoolAccessor2.0: bufferpool2 0xf4047838 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/64 (fetch/transfer)
+07-28 11:22:29.875  4308  4347 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf4047838 cached: 0/0M, 0/0% in use; allocs: 9, 22% recycled; transfers: 64, 89% unfetched
+07-28 11:22:29.877   438  4442 D SimpleC2Component: Using output block pool with poolID 48 => got 48 - 0
+07-28 11:22:29.877  4308  4440 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.877   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.881  4308  4435 I CAM_Profiler: [ 90.143ms] GUARD: CaptureModule.openCameraAndStartPreview() - [90.079ms] mOneCameraOpener.open()
+07-28 11:22:29.882  4308  4435 I CAM_Profiler: [ 90.143ms] GUARD: CaptureModule.openCameraAndStartPreview() - STOP
+07-28 11:22:29.891  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 11:22:29.891  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 11:22:29.893   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f591e000 0x3f61cf000]
+07-28 11:22:29.898  4308  4350 I CAM_OneCamCreator: Camera support level: LIMITED_YUV
+07-28 11:22:29.908  4308  4350 I CAM_OneCamCreator: Picture Size Configuration: PictureSizeCalculator.Configuration{native size=1280x960, crop=Rect(0, 0 - 1280, 960)}
+07-28 11:22:29.912   438  4442 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.912  4308  4347 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.912  4308  4447 D CCodec  : allocate(c2.android.vorbis.decoder)
+07-28 11:22:29.915  4308  4447 I CCodec  : Created component [c2.android.vorbis.decoder]
+07-28 11:22:29.915  4308  4447 D CCodecConfig: read media type: audio/vorbis
+07-28 11:22:29.920  4308  4350 D CAM_CaptureModule: onCameraOpened: com.android.camera.one.v2.initialization.GenericOneCameraImpl@13e42ea
+07-28 11:22:29.921   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f61cf000 0x3f6a80000]
+07-28 11:22:29.925  4308  4350 D CAM_CaptureModule: starting preview ...
+07-28 11:22:29.929  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+07-28 11:22:29.930   414   606 W CameraDeviceClient: createSurfaceFromGbp: Camera 0 with consumer usage flag: 256: Forcing asynchronous mode for stream
+07-28 11:22:29.930  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-28 11:22:29.930  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-28 11:22:29.931  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-28 11:22:29.931  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+07-28 11:22:29.932  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-28 11:22:29.933  4308  4447 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+07-28 11:22:29.935   414   606 W CameraDeviceClient: createSurfaceFromGbp: Camera 0: Overriding format 0x1 to IMPLEMENTATION_DEFINED
+07-28 11:22:29.935  4308  4447 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+07-28 11:22:29.935  4308  4447 D CCodecConfig: c2 config diff is Dict {
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   c2::u32 input.delay.value = 0
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   string output.media-type.value = "audio/raw"
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+07-28 11:22:29.935  4308  4447 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+07-28 11:22:29.935  4308  4447 D CCodecConfig: }
+07-28 11:22:29.936  4308  4447 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+07-28 11:22:29.936  4308  4447 D CCodecConfig: no c2 equivalents for durationUs
+07-28 11:22:29.936  4308  4447 D CCodecConfig: no c2 equivalents for track-id
+07-28 11:22:29.936  4308  4447 D CCodecConfig: no c2 equivalents for csd-1
+07-28 11:22:29.936  4308  4447 D CCodecConfig: no c2 equivalents for channel-mask
+07-28 11:22:29.936  4308  4447 D CCodecConfig: no c2 equivalents for flags
+07-28 11:22:29.936  4308  4447 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+07-28 11:22:29.936  4308  4447 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+07-28 11:22:29.937  4308  4447 W Codec2Client: query -- param skipped: index = 1107298332.
+07-28 11:22:29.937  4308  4447 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t channel-count = 2
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t max-input-size = 32768
+07-28 11:22:29.937  4308  4447 D CCodec  :   string mime = "audio/vorbis"
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t sample-rate = 44100
+07-28 11:22:29.937  4308  4447 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t channel-count = 2
+07-28 11:22:29.937  4308  4447 D CCodec  :   string mime = "audio/raw"
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t sample-rate = 44100
+07-28 11:22:29.937  4308  4447 D CCodec  :   int32_t channel-mask = 3
+07-28 11:22:29.937  4308  4447 D CCodec  : }
+07-28 11:22:29.938  4308  4447 W Codec2Client: query -- param skipped: index = 1342179345.
+07-28 11:22:29.939  4308  4447 W Codec2Client: query -- param skipped: index = 2415921170.
+07-28 11:22:29.939  4308  4447 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.939  4308  4447 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.940  4308  4447 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] Created input block pool with allocatorID 16 => poolID 23 - OK (0)
+07-28 11:22:29.940   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.940   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.941   414   606 E Camera3-Device: configureStreams: Stream 0: DataSpace override not allowed for format 0x23
+07-28 11:22:29.941  4308  4447 I CCodecBufferChannel: [c2.android.vorbis.decoder#682] Created output block pool with allocatorID 16 => poolID 49 - OK
+07-28 11:22:29.941  4308  4447 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] Configured output block pool ids 49 => OK
+07-28 11:22:29.943   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f9c2f000 0x3fa4e0000]
+07-28 11:22:29.943   438  4449 D SimpleC2Component: Using output block pool with poolID 49 => got 49 - 0
+07-28 11:22:29.945  4308  4447 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.945   438  4446 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.962   414   606 D Camera3-Device: Set real time priority for request queue thread (tid 4444)
+07-28 11:22:29.974   438  4449 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.974  4308  4347 E FMQ     : grantorIdx must be less than 3
+07-28 11:22:29.979  4308  4448 V CAM_SettingsManager: listeners: [com.android.camera.app.CameraAppUI@1f070ae, com.android.camera.ButtonManager@b14606b, com.android.camera.widget.IndicatorIconController@aee0061, com.android.camera.settings.SettingObserver$Listener@ffd2345]
+07-28 11:22:29.982  4308  4452 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@5577254 START
+07-28 11:22:30.018   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f7877000 0x3f7a39000]
+07-28 11:22:30.032  4308  4452 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@5577254 END
+07-28 11:22:30.046  4308  4308 V CAM_FocusController: configurePreviewDimensions(RectF(0.0, 207.0, 1080.0, 1647.0))
+07-28 11:22:30.046  4308  4308 I CAM_FocusRingView: Computing center via preview size.
+07-28 11:22:30.047  4308  4308 V CAM_CameraActivity: ignoring storage callback after activity pause
+07-28 11:22:30.047  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderTiny()
+07-28 11:22:30.048  4308  4308 V CAM_FilmstripView: updateViewItem() - recycling old data item and setting new
+07-28 11:22:30.048  4308  4308 D CAM_FilmstripView: updateViewItem(bufferIndex: 2)
+07-28 11:22:30.048  4308  4308 D CAM_FilmstripView: updateViewItem() - mIsUserScrolling: false
+07-28 11:22:30.048  4308  4308 D CAM_FilmstripView: updateViewItem() - mController.isScrolling() - false
+07-28 11:22:30.048  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+07-28 11:22:30.059   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 11:22:30.069   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f7a39000 0x3f7bfb000]
+07-28 11:22:30.879   527   580 W system_server: Long monitor contention with owner Binder:527_14 (4292) at android.os.PowerSaveState com.android.server.power.batterysaver.BatterySaverPolicy.getBatterySaverPolicy(int)(BatterySaverPolicy.java:928) waiters=0 in void com.android.server.power.PowerManagerService.handleSandman() for 780ms
+07-28 11:22:30.880  1215  1942 W .gms.persisten: Long monitor contention with owner Binder:1215_6 (1865) at long bgnr.a(long)(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2) waiters=0 in void bgnr.a() for 793ms
+07-28 11:22:30.885   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f7bfb000 0x3f7dbd000]
+07-28 11:22:30.968  1074  1540 I OpenGLRenderer: Davey! duration=893ms; Flags=0, IntendedVsync=1426554529358, Vsync=1426554529358, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1426555132000, AnimationStart=1426555153300, PerformTraversalsStart=1426556082900, DrawStart=1426556158400, SyncQueued=1426556265700, SyncStart=1426599937400, IssueDrawCommandsStart=1426608015700, SwapBuffers=1427410319700, FrameCompleted=1427491971100, DequeueBufferDuration=667300, QueueBufferDuration=430400, GpuCompleted=926566898700, 
+07-28 11:22:31.000   304   304 W EmuHWC2 : validate: layer 54 CompositionType 1, fallback
+07-28 11:22:31.000  1074  1074 I Choreographer: Skipped 55 frames!  The application may be doing too much work on its main thread.
+07-28 11:22:31.025   711  1195 I OpenGLRenderer: Davey! duration=944ms; Flags=0, IntendedVsync=1426537862692, Vsync=1426554529358, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1426568997300, AnimationStart=1426569037000, PerformTraversalsStart=1426569491700, DrawStart=1426569582300, SyncQueued=1426569696400, SyncStart=1426609170500, IssueDrawCommandsStart=1426622241600, SwapBuffers=1427404791100, FrameCompleted=1427521759000, DequeueBufferDuration=24591100, QueueBufferDuration=1072100, GpuCompleted=926412955400, 
+07-28 11:22:31.029   420   642 E IPCThreadState: binder thread pool (1 threads) starved for 970 ms
+07-28 11:22:31.046   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.camera2/20002170/com.android.camera.CameraLauncher/compiled_traces/compiled_trace.pb doesn't exist
+07-28 11:22:31.075   292  3465 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+07-28 11:22:31.094   292  3465 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+07-28 11:22:31.096   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f7dbd000 0x3f7f7f000]
+07-28 11:22:31.100  4308  4440 D CCodecBufferChannel: [c2.android.vorbis.decoder#859] MediaCodec discarded an unknown buffer
+07-28 11:22:31.100  4308  4440 I chatty  : uid=10091(com.android.camera2) NDK MediaCodec_ identical 1 line
+07-28 11:22:31.100  4308  4440 D CCodecBufferChannel: [c2.android.vorbis.decoder#859] MediaCodec discarded an unknown buffer
+07-28 11:22:31.101  4308  4308 W CAM_IndicatorIconCtrlr: Trying to sync a pano indicator that is not initialized.
+07-28 11:22:31.102  4308  4308 D CAM_CaptureModule: Ready for capture.
+07-28 11:22:31.102  4308  4308 V CAM_CameraAppUI: onPreviewStarted
+07-28 11:22:31.104  4308  4308 I Choreographer: Skipped 61 frames!  The application may be doing too much work on its main thread.
+07-28 11:22:31.105  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 11:22:31.106  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 11:22:31.115   292  3465 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+07-28 11:22:31.128   711   711 I Choreographer: Skipped 64 frames!  The application may be doing too much work on its main thread.
+07-28 11:22:31.158  4308  4308 V CAM_CaptureModule: AF status is state:INACTIVE
+07-28 11:22:31.172  4308  4308 D CAM_CaptureModule: onSurfaceTextureUpdated --> updatePreviewTransform
+07-28 11:22:31.172  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 11:22:31.194   304   304 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 11:22:31.194  4308  4308 V CAM_CameraAppUI: hiding cover via onSurfaceTextureUpdated
+07-28 11:22:31.194  4308  4308 D CameraPerformanceTracker: First preview frame received
+07-28 11:22:31.197  4308  4333 I OpenGLRenderer: Davey! duration=1069ms; Flags=0, IntendedVsync=1426604477533, Vsync=1427621144159, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1427628727000, AnimationStart=1427628749800, PerformTraversalsStart=1427628779400, DrawStart=1427630255100, SyncQueued=1427630601300, SyncStart=1427678313500, IssueDrawCommandsStart=1427678710000, SwapBuffers=1427686221400, FrameCompleted=1427721696800, DequeueBufferDuration=303200, QueueBufferDuration=28793300, GpuCompleted=0, 
+07-28 11:22:31.199   335   630 E SurfaceFlinger: setDesiredDisplayConfigSpecs: failed to call setDesiredDisplayConfigSpecs: -22
+07-28 11:22:31.200   527   557 E SurfaceFlinger: setDesiredDisplayConfigSpecs failed to transact: -22
+07-28 11:22:31.200   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 11:22:31.200   335   335 E Layer   : [Surface(name=Task=14)/@0x398c082 - animation-leash#0] No local sync point found
+07-28 11:22:31.206  4308  4440 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 11:22:31.248   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f6a80000 0x3f6c42000]
+07-28 11:22:31.252   711  1195 I OpenGLRenderer: Davey! duration=1161ms; Flags=0, IntendedVsync=1426571201570, Vsync=1427637868194, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1427652040900, AnimationStart=1427652060200, PerformTraversalsStart=1427652340900, DrawStart=1427652421900, SyncQueued=1427652506000, SyncStart=1427696446700, IssueDrawCommandsStart=1427696815700, SwapBuffers=1427769960700, FrameCompleted=1427776192800, DequeueBufferDuration=642800, QueueBufferDuration=817500, GpuCompleted=926438554500, 
+07-28 11:22:31.275   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 11:22:31.275   335   335 E Layer   : [Surface(name=Task=14)/@0x398c082 - animation-leash#0] No local sync point found
+07-28 11:22:31.322   711  1195 I OpenGLRenderer: Davey! duration=1133ms; Flags=0, IntendedVsync=1426571201570, Vsync=1427637868194, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1427652040900, AnimationStart=1427652060200, PerformTraversalsStart=1427652340900, DrawStart=1427696752500, SyncQueued=1427696775900, SyncStart=1427838779400, IssueDrawCommandsStart=1427838941900, SwapBuffers=1427843034900, FrameCompleted=1427846271600, DequeueBufferDuration=974400, QueueBufferDuration=782600, GpuCompleted=48620907700, 
+07-28 11:22:31.326  1074  1540 I OpenGLRenderer: Davey! duration=1098ms; Flags=0, IntendedVsync=1426604477533, Vsync=1427521144163, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1427524417600, AnimationStart=1427524443000, PerformTraversalsStart=1427570927900, DrawStart=1427571498000, SyncQueued=1427574661300, SyncStart=1427722060500, IssueDrawCommandsStart=1427726186500, SwapBuffers=1427828747200, FrameCompleted=1427850367500, DequeueBufferDuration=436100, QueueBufferDuration=3285900, GpuCompleted=926600179700, 
+07-28 11:22:31.333  4308  4308 V CAM_FocusController: configurePreviewDimensions(RectF(0.0, 207.0, 1080.0, 1647.0))
+07-28 11:22:31.334  4308  4308 I CAM_FocusRingView: Computing center via preview size.
+07-28 11:22:31.479  4308  4447 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] MediaCodec discarded an unknown buffer
+07-28 11:22:31.479  4308  4447 I chatty  : uid=10091(com.android.camera2) identical 1 line
+07-28 11:22:31.479  4308  4447 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] MediaCodec discarded an unknown buffer
+07-28 11:22:31.489  4308  4447 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 11:22:31.490   438   497 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 11:22:31.491   438   497 V C2Store : in ~ComponentModule
+07-28 11:22:31.491   438   497 V C2Store : unloading dll
+07-28 11:22:31.762  4308  4327 D HostConnection: HostConnection::get() New Host Connection established 0xf44211e0, tid 4327
+07-28 11:22:31.772  4308  4327 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 11:22:32.118   527  4174 D WifiNl80211Manager: Scan result ready event
+07-28 11:22:32.118   527  4174 D WifiNative: Scan result ready event
+07-28 11:22:32.382   292  3465 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+07-28 11:22:32.703   292  3465 I chatty  : uid=1041(audioserver) HwBinder:292_1 identical 4 lines
+07-28 11:22:32.809   292  3465 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+07-28 11:22:32.830   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:32.841   527  1430 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-28 11:22:33.777   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 11:22:33.778   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:33.779   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 11:22:33.779   326  4457 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 11:22:33.811   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:33.811   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:33.854  4308  4308 D CAM_LcyLocProvider: Got first location.
+07-28 11:22:33.880   326  4457 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 11:22:33.886   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:33.895   527   554 D AutofillManagerService: Close system dialogs
+07-28 11:22:33.895   527   555 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras)} from uid 0
+07-28 11:22:33.895   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.910   527   555 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.911   527   555 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 11:22:33.920   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 15, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+07-28 11:22:33.922   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=15)
+07-28 11:22:33.923  4308  4308 V CAM_QuickActivity: START onPause: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:33.923  4308  4308 V CAM_QuickActivity: onPause --> onPauseTasks()
+07-28 11:22:33.923  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.onPause - START
+07-28 11:22:33.927   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 11:22:33.927  1074  1074 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras) }
+07-28 11:22:33.929   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 11:22:33.931   527   554 D AutofillManagerService: Close system dialogs
+07-28 11:22:33.934  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.closeCamera() - START
+07-28 11:22:33.935  4308  4308 V CAM_Profiler: [  0.159ms][ui] GUARD: CaptureModule.closeCamera() - [ 0.159ms] mCameraOpenCloseLock.acquire()
+07-28 11:22:33.935  4308  4308 D CAM_LoggingImageReader: Closing: ImageReader{width=1280, height=960, format=YUV_420_888}
+07-28 11:22:33.946   295  4125 W EmulatedCamera_QemuCamera3: flush: Not implemented; ignored
+07-28 11:22:33.949   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 11:22:33.954   527  4292 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:33.957   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f4708000 0x3f506d000]
+07-28 11:22:34.003   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c42000 0x3f75a7000]
+07-28 11:22:34.009   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f8965000 0x3f92ca000]
+07-28 11:22:34.031   414   606 I Camera3-Device: disconnectImpl: E
+07-28 11:22:34.032   414   606 I CameraLatencyHistogram: ProcessCaptureRequest latency histogram (76) samples:
+07-28 11:22:34.032   414   606 I CameraLatencyHistogram:        40     80    120    160    200    240    280    320    360    inf (max ms)
+07-28 11:22:34.032   414   606 I CameraLatencyHistogram:      93.42   3.95   1.32   0.00   0.00   0.00   0.00   0.00   0.00   1.32 (%)
+07-28 11:22:34.039   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3fc965000 0x3fd2ca000]
+07-28 11:22:34.105   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.launcher3/30/com.android.launcher3.uioverrides.QuickstepLauncher/compiled_traces/compiled_trace.pb doesn't exist
+07-28 11:22:34.110   414   606 I CameraLatencyHistogram: Stream 1 dequeueBuffer latency histogram (76) samples:
+07-28 11:22:34.110   414   606 I CameraLatencyHistogram:         5     10     15     20     25     30     35     40     45    inf (max ms)
+07-28 11:22:34.110   414   606 I CameraLatencyHistogram:      86.84   5.26   0.00   0.00   0.00   2.63   0.00   1.32   0.00   3.95 (%)
+07-28 11:22:34.110   414   606 I Camera3-Device: disconnectImpl: X
+07-28 11:22:34.112   414   606 I CameraService: disconnect: Disconnected client for camera 0 for PID 4308
+07-28 11:22:34.114  4308  4308 I CAM_Profiler: [178.535ms][ui] GUARD: CaptureModule.closeCamera() - [178.376ms] mCamera.close()
+07-28 11:22:34.116  4308  4308 I CAM_Profiler: [181.536ms][ui] GUARD: CaptureModule.closeCamera() - STOP
+07-28 11:22:34.119  4308  4308 V CAM_LcyLocProvider: stopping location updates
+07-28 11:22:34.122   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 11:22:34.132  4308  4308 D CAM_LcyLocProvider: stopReceivingLocationUpdates
+07-28 11:22:34.132  4308  4308 V CAM_CameraActivity: onPause closing camera
+07-28 11:22:34.132  4308  4308 V CAM_CameraController: Closing camera
+07-28 11:22:34.134  4308  4337 W CAM2PORT_AndCamAgntImp: Releasing camera without any camera opened.
+07-28 11:22:34.135  4308  4308 I CAM_Profiler: [212.074ms][ui] GUARD: CameraActivity.onPause - STOP
+07-28 11:22:34.136  4308  4308 V CAM_QuickActivity: END onPause: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:34.162  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 11:22:34.162  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 11:22:34.177  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 11:22:34.178  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 11:22:34.733   399   399 I perfetto: probes_producer.cc:329  Producer stop (id=14)
+07-28 11:22:34.735   406   406 I perfetto: ng_service_impl.cc:1948 Tracing session 14 ended, total sessions:1
+07-28 11:22:34.774   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 11:22:34.775   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:34.776   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 11:22:34.776   326  4464 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 11:22:34.789   527  4292 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:34.831  4308  4308 V CAM_QuickActivity: START onStop: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:34.831  4308  4308 D CAM_LcyLocProvider: disconnect
+07-28 11:22:34.831  4308  4308 V CAM_QuickActivity: END onStop: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 11:22:34.877   326  4464 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 11:22:34.877   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:34.881   438   923 D BufferPoolAccessor2.0: evictor expired: 5, evicted: 0
+07-28 11:22:34.882  4308  4346 D BufferPoolAccessor2.0: evictor expired: 5, evicted: 0
+07-28 11:22:34.954   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 11:22:35.092   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 11:22:35.093   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:35.094   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 11:22:35.094   326  4465 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 11:22:35.098   527   554 D AutofillManagerService: Close system dialogs
+07-28 11:22:35.099   527   555 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras)} from uid 0
+07-28 11:22:35.100   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 11:22:35.101  1074  1074 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras) }
+07-28 11:22:35.103   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 11:22:35.103   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+07-28 11:22:35.106   527   554 D AutofillManagerService: Close system dialogs
+07-28 11:22:35.107   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 11:22:35.195   326  4465 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 11:22:35.196   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 11:22:35.883   438   923 D BufferPoolAccessor2.0: bufferpool2 0xef583658 : 0(0 size) total buffers - 0(0 size) used buffers - 26/30 (recycle/alloc) - 5/29 (fetch/transfer)
+07-28 11:22:35.883   438   923 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+07-28 11:22:36.884   438   923 D BufferPoolAccessor2.0: bufferpool2 0xef584b98 : 0(0 size) total buffers - 0(0 size) used buffers - 28/30 (recycle/alloc) - 3/29 (fetch/transfer)
+07-28 11:22:36.884   438   923 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1

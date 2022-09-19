@@ -1,0 +1,1269 @@
+--------- beginning of kernel
+07-28 12:18:42.129     0     0 D logd    : Skipping 4294966348 entries from slow reader, pid 364, from LogBuffer::kickMe()
+07-28 12:18:43.149     0     0 D logd    : logdr: UID=2000 GID=2000 PID=4603 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+--------- beginning of main
+07-28 12:18:47.070  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=964.9402, y[0]=1961.8799, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1667884, downTime=1667884, deviceId=6, source=0x5002, displayId=0 }
+07-28 12:18:47.299  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=964.9402, y[0]=1961.8799, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1668107, downTime=1667884, deviceId=6, source=0x5002, displayId=0 }
+07-28 12:18:47.303  1074  1074 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+--------- beginning of system
+07-28 12:18:47.310   527  1489 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.camera2 cmp=com.android.camera2/com.android.camera.CameraLauncher bnds=[842,1836][1043,2084]} from uid 10109
+07-28 12:18:47.310   527   557 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+07-28 12:18:47.327   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 16, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+07-28 12:18:47.330   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=16)
+07-28 12:18:47.342   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:47.342   527  4174 I chatty  : uid=1000(system) Binder:527_13 identical 1 line
+07-28 12:18:47.348   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:47.358   527  4174 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.358   527  4174 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.358   527  4174 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.358   527  4174 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.358   527  4174 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.359   527  4174 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.363   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f506d000 0x3f591e000]
+07-28 12:18:47.363   527  4174 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.364   527  4174 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:47.371   399   399 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+07-28 12:18:47.357     0     0 W perfetto: enabled ftrace
+07-28 12:18:47.391  4308  4308 V CAM_QuickActivity: START onRestart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.391  4308  4308 V CAM_QuickActivity: END onRestart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.398   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 12:18:47.402  4308  4308 V CAM_QuickActivity: START onStart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.416  4308  4308 V CAM_FilmstripView: recycleView
+07-28 12:18:47.416  4308  4308 V CAM_FilmstripView: suggesting item bounds: 1080x1977
+07-28 12:18:47.416  4308  4308 V CAM_FilmstripView: getRecycledView, recycled=true
+07-28 12:18:47.417  4308  4308 D CAM_FilmstripView: reload() - Ensure all items are loaded at max size.
+07-28 12:18:47.419  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+07-28 12:18:47.420  4308  4308 V CAM_QuickActivity: END onStart: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.421  4308  4308 V CAM_QuickActivity: START onNewIntent: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.421  4308  4308 V CAM_QuickActivity: Intent Action = android.intent.action.MAIN
+07-28 12:18:47.421   386   470 D AudioFlinger: mixer(0xec934030) throttle end: throttle time(3)
+07-28 12:18:47.421  4308  4308 V CAM_QuickActivity: END onNewIntent: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.421  4308  4308 V CAM_QuickActivity: START onResume: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.425  4308  4308 V CAM_QuickActivity: onResume(): isKeyguardLocked() = false
+07-28 12:18:47.429  4308  4308 V CAM_QuickActivity: onResume --> onResumeTasks()
+07-28 12:18:47.430  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.resume - START
+07-28 12:18:47.431  4308  4308 V CAM_CameraActivity: Build info: sdk_phone_x86-userdebug 11 RSR1.210210.001.A1 7193139 dev-keys
+07-28 12:18:47.443  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.resume - START
+07-28 12:18:47.443  4308  4308 V CAM_Profiler: [  0.292ms][ui] GUARD: CaptureModule.resume - [ 0.013ms] getRemoteShutterListener.onModuleReady
+07-28 12:18:47.445  4308  4435 D CAM_Storage: External storage state=mounted
+07-28 12:18:47.446  4308  4308 V CAM_Profiler: [  2.852ms][ui] GUARD: CaptureModule.resume - [ 0.250ms] initSurfaceTextureConsumer
+07-28 12:18:47.447  4308  4612 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.closeCamera() - START
+07-28 12:18:47.447  4308  4612 V CAM_Profiler: [  0.295ms] GUARD: CaptureModule.closeCamera() - [ 0.295ms] mCameraOpenCloseLock.acquire()
+07-28 12:18:47.447  4308  4612 V CAM_Profiler: [  0.510ms] GUARD: CaptureModule.closeCamera() - STOP
+07-28 12:18:47.448  4308  4612 V CAM_Profiler: [  0.000ms] GUARD: CaptureModule.openCameraAndStartPreview() - START
+07-28 12:18:47.448  4308  4612 V CAM_Profiler: [  0.087ms] GUARD: CaptureModule.openCameraAndStartPreview() - [ 0.087ms] Acquired mCameraOpenCloseLock
+07-28 12:18:47.448  4308  4612 I CAM_OneCamera1Opnr: Opening Camera: CameraId{Api2='0',Api1:0}
+07-28 12:18:47.448  4308  4612 V CAM_ActvCamDevTrckr: Tracking active camera: CameraId{Api2='0',Api1:0}
+07-28 12:18:47.459  4308  4308 V CAM_Profiler: [ 15.768ms][ui] GUARD: CaptureModule.resume - [ 7.939ms] mHeadingSensor.activate()
+07-28 12:18:47.459  4308  4308 I CAM_Profiler: [ 15.768ms][ui] GUARD: CaptureModule.resume - STOP
+07-28 12:18:47.459  4308  4308 I CAM_Profiler: [ 29.546ms][ui] GUARD: CameraActivity.resume - [16.428ms] mCurrentModule.resume
+07-28 12:18:47.461   414  4168 I CameraService: CameraService::connect call (PID -1 "com.android.camera2", camera ID 0) for HAL version default and Camera API version 2
+07-28 12:18:47.465   414  4168 I Camera2ClientBase: Camera 0: Opened. Client: com.android.camera2 (PID 4308, UID 10091)
+07-28 12:18:47.466   414  4168 I CameraDeviceClient: CameraDeviceClient 0: Opened
+07-28 12:18:47.492   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:47.496  4308  4308 V CAM_Profiler: [ 66.132ms][ui] GUARD: CameraActivity.resume - [ 0.009ms] mPanoramaViewHelper.onResume()
+07-28 12:18:47.496  4308  4308 V CAM_LcyLocProvider: starting location updates
+07-28 12:18:47.500  4308  4308 D CAM_LcyLocProvider: startReceivingLocationUpdates
+07-28 12:18:47.500  4308  4308 I CAM_Profiler: [ 70.137ms][ui] GUARD: CameraActivity.resume - STOP
+07-28 12:18:47.500  4308  4308 V CAM_QuickActivity: END onResume: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:47.505   295   382 E libc    : Access denied finding property "ro.camera.req.fmq.size"
+07-28 12:18:47.505   295   382 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.505   295   382 E libc    : Access denied finding property "ro.camera.res.fmq.size"
+07-28 12:18:47.505   295   382 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.508   414  4168 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.515   414  4168 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.517  4308  4616 D CCodec  : allocate(c2.android.vorbis.decoder)
+07-28 12:18:47.518   438   497 V C2Store : in init
+07-28 12:18:47.518   438   497 V C2Store : loading dll
+07-28 12:18:47.492   295   295 W HwBinder:295_1: type=1400 audit(0.0:128): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=8302 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+07-28 12:18:47.504   295   295 W HwBinder:295_1: type=1400 audit(0.0:129): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=8302 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+07-28 12:18:47.526   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f9c2f000 0x3fa4e0000]
+07-28 12:18:47.582  4308  4612 I CAM_Profiler: [134.026ms] GUARD: CaptureModule.openCameraAndStartPreview() - [133.939ms] mOneCameraOpener.open()
+07-28 12:18:47.582  4308  4612 I CAM_Profiler: [134.026ms] GUARD: CaptureModule.openCameraAndStartPreview() - STOP
+07-28 12:18:47.583  4308  4616 I CCodec  : Created component [c2.android.vorbis.decoder]
+07-28 12:18:47.588  4308  4616 D CCodecConfig: read media type: audio/vorbis
+07-28 12:18:47.614  4308  4350 I CAM_OneCamCreator: Camera support level: LIMITED_YUV
+07-28 12:18:47.615  4308  4350 I CAM_OneCamCreator: Picture Size Configuration: PictureSizeCalculator.Configuration{native size=1280x960, crop=Rect(0, 0 - 1280, 960)}
+07-28 12:18:47.621  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+07-28 12:18:47.621  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-28 12:18:47.630  4308  4350 D CAM_CaptureModule: onCameraOpened: com.android.camera.one.v2.initialization.GenericOneCameraImpl@f74f940
+07-28 12:18:47.630  4308  4350 D CAM_CaptureModule: starting preview ...
+07-28 12:18:47.750  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-28 12:18:47.750  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-28 12:18:47.751  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+07-28 12:18:47.751  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-28 12:18:47.751  4308  4616 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+07-28 12:18:47.753  4308  4616 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+07-28 12:18:47.753  4308  4616 D CCodecConfig: c2 config diff is Dict {
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   c2::u32 input.delay.value = 0
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   string output.media-type.value = "audio/raw"
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+07-28 12:18:47.753  4308  4616 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+07-28 12:18:47.753  4308  4616 D CCodecConfig: }
+07-28 12:18:47.755  4308  4616 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+07-28 12:18:47.755  4308  4616 D CCodecConfig: no c2 equivalents for durationUs
+07-28 12:18:47.755  4308  4616 D CCodecConfig: no c2 equivalents for track-id
+07-28 12:18:47.755  4308  4616 D CCodecConfig: no c2 equivalents for csd-1
+07-28 12:18:47.755  4308  4616 D CCodecConfig: no c2 equivalents for channel-mask
+07-28 12:18:47.755  4308  4616 D CCodecConfig: no c2 equivalents for flags
+07-28 12:18:47.756  4308  4616 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+07-28 12:18:47.756  4308  4616 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+07-28 12:18:47.756  4308  4616 W Codec2Client: query -- param skipped: index = 1107298332.
+07-28 12:18:47.756  4308  4616 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t channel-count = 2
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t max-input-size = 32768
+07-28 12:18:47.756  4308  4616 D CCodec  :   string mime = "audio/vorbis"
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t sample-rate = 44100
+07-28 12:18:47.756  4308  4616 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t channel-count = 2
+07-28 12:18:47.756  4308  4616 D CCodec  :   string mime = "audio/raw"
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t sample-rate = 44100
+07-28 12:18:47.756  4308  4616 D CCodec  :   int32_t channel-mask = 3
+07-28 12:18:47.756  4308  4616 D CCodec  : }
+07-28 12:18:47.758  4308  4616 W Codec2Client: query -- param skipped: index = 1342179345.
+07-28 12:18:47.758  4308  4616 W Codec2Client: query -- param skipped: index = 2415921170.
+07-28 12:18:47.758  4308  4616 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.758  4308  4616 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.759  4308  4616 D CCodecBufferChannel: [c2.android.vorbis.decoder#684] Created input block pool with allocatorID 16 => poolID 24 - OK (0)
+07-28 12:18:47.759   438   438 D BufferPoolAccessor2.0: bufferpool2 0xef583658 : 0(0 size) total buffers - 0(0 size) used buffers - 26/30 (recycle/alloc) - 5/29 (fetch/transfer)
+07-28 12:18:47.759   438   438 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef583658 cached: 0/0M, 0/0% in use; allocs: 30, 87% recycled; transfers: 29, 83% unfetched
+07-28 12:18:47.760   438   438 D BufferPoolAccessor2.0: bufferpool2 0xef584b98 : 0(0 size) total buffers - 0(0 size) used buffers - 28/30 (recycle/alloc) - 3/29 (fetch/transfer)
+07-28 12:18:47.760   438   438 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xef584b98 cached: 0/0M, 0/0% in use; allocs: 30, 93% recycled; transfers: 29, 90% unfetched
+07-28 12:18:47.760   438   497 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.760   438   497 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.761   426   762 D BufferPoolAccessor2.0: bufferpool2 0xea485968 : 0(0 size) total buffers - 0(0 size) used buffers - 93/104 (recycle/alloc) - 11/198 (fetch/transfer)
+07-28 12:18:47.761   426   762 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xea485968 cached: 0/0M, 0/0% in use; allocs: 104, 89% recycled; transfers: 198, 94% unfetched
+07-28 12:18:47.762  4308  4616 I CCodecBufferChannel: [c2.android.vorbis.decoder#684] Created output block pool with allocatorID 16 => poolID 51 - OK
+07-28 12:18:47.762  4308  4616 D CCodecBufferChannel: [c2.android.vorbis.decoder#684] Configured output block pool ids 51 => OK
+07-28 12:18:47.763   438  4621 D SimpleC2Component: Using output block pool with poolID 51 => got 51 - 0
+07-28 12:18:47.764  4308  4616 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.764   438   438 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.775   438  4621 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.775  4308  4347 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:47.874  4308  4616 D CCodecBufferChannel: [c2.android.vorbis.decoder#684] MediaCodec discarded an unknown buffer
+07-28 12:18:47.875  4308  4616 I chatty  : uid=10091(com.android.camera2) identical 1 line
+07-28 12:18:47.875  4308  4616 D CCodecBufferChannel: [c2.android.vorbis.decoder#684] MediaCodec discarded an unknown buffer
+07-28 12:18:47.965   414   605 W CameraDeviceClient: createSurfaceFromGbp: Camera 0 with consumer usage flag: 256: Forcing asynchronous mode for stream
+07-28 12:18:47.966   414   605 W CameraDeviceClient: createSurfaceFromGbp: Camera 0: Overriding format 0x1 to IMPLEMENTATION_DEFINED
+07-28 12:18:47.968   414   605 E Camera3-Device: configureStreams: Stream 0: DataSpace override not allowed for format 0x23
+07-28 12:18:47.978   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f8965000 0x3f9216000]
+07-28 12:18:47.994   414   605 D Camera3-Device: Set real time priority for request queue thread (tid 4619)
+07-28 12:18:48.007  4308  4616 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 12:18:48.008   438  3588 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 12:18:48.009   438  3588 V C2Store : in ~ComponentModule
+07-28 12:18:48.009   438  3588 V C2Store : unloading dll
+07-28 12:18:48.025   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3fd2ca000 0x3fdb7b000]
+07-28 12:18:48.085  4308  4622 V CAM_SettingsManager: listeners: [com.android.camera.app.CameraAppUI@1f070ae, com.android.camera.ButtonManager@b14606b, com.android.camera.widget.IndicatorIconController@aee0061, com.android.camera.settings.SettingObserver$Listener@e55cb3]
+07-28 12:18:48.093  4308  4626 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@2453b7a START
+07-28 12:18:48.098  4308  4627 D CCodec  : allocate(c2.android.vorbis.decoder)
+07-28 12:18:48.098  4308  4626 D CAM_CommandExecutor: Executing command: com.android.camera.one.v2.commands.PreviewCommand@2453b7a END
+07-28 12:18:48.098   438  3588 V C2Store : in init
+07-28 12:18:48.098   438  3588 V C2Store : loading dll
+07-28 12:18:48.099  4308  4627 I CCodec  : Created component [c2.android.vorbis.decoder]
+07-28 12:18:48.100  4308  4627 D CCodecConfig: read media type: audio/vorbis
+07-28 12:18:48.103  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+07-28 12:18:48.103  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-28 12:18:48.104  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-28 12:18:48.104  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-28 12:18:48.104  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+07-28 12:18:48.104  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-28 12:18:48.104  4308  4627 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+07-28 12:18:48.105  4308  4627 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+07-28 12:18:48.105  4308  4627 D CCodecConfig: c2 config diff is Dict {
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   c2::u32 input.delay.value = 0
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   string output.media-type.value = "audio/raw"
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+07-28 12:18:48.105  4308  4627 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+07-28 12:18:48.105  4308  4627 D CCodecConfig: }
+07-28 12:18:48.106  4308  4627 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+07-28 12:18:48.106  4308  4627 D CCodecConfig: no c2 equivalents for durationUs
+07-28 12:18:48.106  4308  4627 D CCodecConfig: no c2 equivalents for track-id
+07-28 12:18:48.106  4308  4627 D CCodecConfig: no c2 equivalents for csd-1
+07-28 12:18:48.106  4308  4627 D CCodecConfig: no c2 equivalents for channel-mask
+07-28 12:18:48.106  4308  4627 D CCodecConfig: no c2 equivalents for flags
+07-28 12:18:48.107  4308  4627 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 2
+07-28 12:18:48.107  4308  4627 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+07-28 12:18:48.107  4308  4627 W Codec2Client: query -- param skipped: index = 1107298332.
+07-28 12:18:48.107  4308  4627 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t channel-count = 2
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t max-input-size = 32768
+07-28 12:18:48.107  4308  4627 D CCodec  :   string mime = "audio/vorbis"
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t sample-rate = 44100
+07-28 12:18:48.107  4308  4627 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t channel-count = 2
+07-28 12:18:48.107  4308  4627 D CCodec  :   string mime = "audio/raw"
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t sample-rate = 44100
+07-28 12:18:48.107  4308  4627 D CCodec  :   int32_t channel-mask = 3
+07-28 12:18:48.107  4308  4627 D CCodec  : }
+07-28 12:18:48.108  4308  4627 W Codec2Client: query -- param skipped: index = 1342179345.
+07-28 12:18:48.108  4308  4627 W Codec2Client: query -- param skipped: index = 2415921170.
+07-28 12:18:48.108  4308  4627 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.108  4308  4627 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.108  4308  4627 D CCodecBufferChannel: [c2.android.vorbis.decoder#159] Created input block pool with allocatorID 16 => poolID 25 - OK (0)
+07-28 12:18:48.108   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.108   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.109  4308  4627 I CCodecBufferChannel: [c2.android.vorbis.decoder#159] Created output block pool with allocatorID 16 => poolID 52 - OK
+07-28 12:18:48.109  4308  4627 D CCodecBufferChannel: [c2.android.vorbis.decoder#159] Configured output block pool ids 52 => OK
+07-28 12:18:48.110   438  4628 D SimpleC2Component: Using output block pool with poolID 52 => got 52 - 0
+07-28 12:18:48.110  4308  4627 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.110   438  1054 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.115   438  4628 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.115  4308  4347 E FMQ     : grantorIdx must be less than 3
+07-28 12:18:48.210  4308  4627 D CCodecBufferChannel: [c2.android.vorbis.decoder#159] MediaCodec discarded an unknown buffer
+07-28 12:18:48.210  4308  4627 I chatty  : uid=10091(com.android.camera2) identical 1 line
+07-28 12:18:48.210  4308  4627 D CCodecBufferChannel: [c2.android.vorbis.decoder#159] MediaCodec discarded an unknown buffer
+07-28 12:18:48.212  4308  4627 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 12:18:48.212   438  1054 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-28 12:18:48.212   438  1054 V C2Store : in ~ComponentModule
+07-28 12:18:48.212   438  1054 V C2Store : unloading dll
+07-28 12:18:48.369   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f7dbd000 0x3f7f7f000]
+07-28 12:18:48.380   304   551 W EmuHWC2 : validate: layer 65 CompositionType 1, fallback
+07-28 12:18:48.423  4308  4333 I OpenGLRenderer: Davey! duration=1021ms; Flags=1, IntendedVsync=1668187706549, Vsync=1668304373211, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1668318956600, AnimationStart=1668319004900, PerformTraversalsStart=1668319037700, DrawStart=1668792629800, SyncQueued=1668794434100, SyncStart=1668823174300, IssueDrawCommandsStart=1668823425100, SwapBuffers=1669203751600, FrameCompleted=1669238276700, DequeueBufferDuration=81500, QueueBufferDuration=6497900, GpuCompleted=926158351400, 
+07-28 12:18:48.426  4308  4308 V CAM_FocusController: configurePreviewDimensions(RectF(0.0, 207.0, 1080.0, 1647.0))
+07-28 12:18:48.426  4308  4308 I CAM_FocusRingView: Computing center via preview size.
+07-28 12:18:48.426  4308  4308 V CAM_CameraActivity: ignoring storage callback after activity pause
+07-28 12:18:48.427  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderTiny()
+07-28 12:18:48.427  4308  4308 V CAM_FilmstripView: updateViewItem() - recycling old data item and setting new
+07-28 12:18:48.433  4308  4308 D CAM_FilmstripView: updateViewItem(bufferIndex: 2)
+07-28 12:18:48.433  4308  4308 D CAM_FilmstripView: updateViewItem() - mIsUserScrolling: false
+07-28 12:18:48.433  4308  4308 D CAM_FilmstripView: updateViewItem() - mController.isScrolling() - false
+07-28 12:18:48.433  4308  4308 I CAM_FilmstripView: [ViewItem:0] mData.renderThumbnail()
+07-28 12:18:48.441  4308  4308 W CAM_IndicatorIconCtrlr: Trying to sync a pano indicator that is not initialized.
+07-28 12:18:48.441  4308  4308 D CAM_CaptureModule: Ready for capture.
+07-28 12:18:48.441  4308  4308 V CAM_CameraAppUI: onPreviewStarted
+07-28 12:18:48.447   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.camera2/20002170/com.android.camera.CameraLauncher/compiled_traces/compiled_trace.pb doesn't exist
+07-28 12:18:48.449   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 12:18:48.454   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f7601000 0x3f77c3000]
+07-28 12:18:49.379   386   470 W AudioFlinger: write blocked for 905 msecs, 5 delayed writes, thread 13
+07-28 12:18:49.368     0     0 W sched   : RT throttling activated
+07-28 12:18:49.509   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:49.510   527  1489 D WifiNl80211Manager: Scan result ready event
+07-28 12:18:49.511   527  1489 D WifiNative: Scan result ready event
+07-28 12:18:49.513  1074  1540 I OpenGLRenderer: Davey! duration=1519ms; Flags=0, IntendedVsync=1668421016652, Vsync=1668787683304, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1668795299400, AnimationStart=1668795319000, PerformTraversalsStart=1668795904800, DrawStart=1668796174900, SyncQueued=1668796394300, SyncStart=1669184989000, IssueDrawCommandsStart=1669191176500, SwapBuffers=1669196553600, FrameCompleted=1670329514700, DequeueBufferDuration=1129983600, QueueBufferDuration=1215000, GpuCompleted=928501020900, 
+07-28 12:18:49.514   711  1195 I OpenGLRenderer: Davey! duration=1884ms; Flags=0, IntendedVsync=1668387688190, Vsync=1668804354840, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1668819298500, AnimationStart=1668819335700, PerformTraversalsStart=1668821793800, DrawStart=1669180310500, SyncQueued=1669181279900, SyncStart=1669239089400, IssueDrawCommandsStart=1669239172200, SwapBuffers=1669239872100, FrameCompleted=1670329809800, DequeueBufferDuration=1087700500, QueueBufferDuration=995900, GpuCompleted=930115775200, 
+07-28 12:18:49.536   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f77c3000 0x3f7985000]
+07-28 12:18:49.548  4308  4333 I OpenGLRenderer: Davey! duration=1109ms; Flags=0, IntendedVsync=1669254372638, Vsync=1669254372638, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1669257891600, AnimationStart=1669257906400, PerformTraversalsStart=1669257929100, DrawStart=1669258381900, SyncQueued=1669258468000, SyncStart=1669258763100, IssueDrawCommandsStart=1669258833900, SwapBuffers=1670194520300, FrameCompleted=1670364208800, DequeueBufferDuration=93600, QueueBufferDuration=18118200, GpuCompleted=926192124100, 
+07-28 12:18:49.553  1074  1074 I Choreographer: Skipped 69 frames!  The application may be doing too much work on its main thread.
+07-28 12:18:49.611   335  1067 E SurfaceFlinger: setDesiredDisplayConfigSpecs: failed to call setDesiredDisplayConfigSpecs: -22
+07-28 12:18:49.611   335   335 E Layer   : [Surface(name=Task=14)/@0x398c082 - animation-leash#0] No local sync point found
+07-28 12:18:49.611   335   335 E Layer   : [Surface(name=Task=14)/@0x398c082 - animation-leash#0] No local sync point found
+07-28 12:18:49.611   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 12:18:49.611   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 12:18:49.611   527   557 E SurfaceFlinger: setDesiredDisplayConfigSpecs failed to transact: -22
+07-28 12:18:49.641  4308  4308 D CAM_CaptureModule: onSurfaceTextureUpdated --> updatePreviewTransform
+07-28 12:18:49.641  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 12:18:49.643  4308  4308 V CAM_CameraAppUI: hiding cover via onSurfaceTextureUpdated
+07-28 12:18:49.643  4308  4308 D CameraPerformanceTracker: First preview frame received
+07-28 12:18:49.671   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f7985000 0x3f7b47000]
+07-28 12:18:49.704  4308  4308 V CAM_CaptureModule: AF status is state:INACTIVE
+07-28 12:18:49.710  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 12:18:49.710  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 12:18:49.726   711   711 I Choreographer: Skipped 77 frames!  The application may be doing too much work on its main thread.
+07-28 12:18:49.743   711  1195 I OpenGLRenderer: Davey! duration=1627ms; Flags=0, IntendedVsync=1668821009326, Vsync=1669237675976, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1669239511200, AnimationStart=1669239551400, PerformTraversalsStart=1669240797800, DrawStart=1670430401100, SyncQueued=1670430424100, SyncStart=1670540993000, IssueDrawCommandsStart=1670541070600, SwapBuffers=1670542318100, FrameCompleted=1670559283100, DequeueBufferDuration=685300, QueueBufferDuration=14385800, GpuCompleted=930135144600, 
+07-28 12:18:49.746   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f6337000 0x3f64f9000]
+07-28 12:18:49.755  4308  4308 V CAM_FocusController: configurePreviewDimensions(RectF(0.0, 207.0, 1080.0, 1647.0))
+07-28 12:18:49.755  4308  4308 I CAM_FocusRingView: Computing center via preview size.
+07-28 12:18:49.759  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 12:18:49.759  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 12:18:49.884   711  1195 I OpenGLRenderer: Davey! duration=1354ms; Flags=0, IntendedVsync=1669254372638, Vsync=1670537705920, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1670556454000, AnimationStart=1670556932800, PerformTraversalsStart=1670557665500, DrawStart=1670557731500, SyncQueued=1670557764100, SyncStart=1670648552800, IssueDrawCommandsStart=1670649772500, SwapBuffers=1670689226500, FrameCompleted=1670700002800, DequeueBufferDuration=1074300, QueueBufferDuration=8643200, GpuCompleted=195764454000, 
+07-28 12:18:49.997   711  1195 I OpenGLRenderer: Davey! duration=1459ms; Flags=0, IntendedVsync=1669254372638, Vsync=1670537705920, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1670556454000, AnimationStart=1670556932800, PerformTraversalsStart=1670557665500, DrawStart=1670650090200, SyncQueued=1670650119400, SyncStart=1670749036900, IssueDrawCommandsStart=1670759576700, SwapBuffers=1670774809900, FrameCompleted=1670812662800, DequeueBufferDuration=255200, QueueBufferDuration=19857800, GpuCompleted=930149682900, 
+07-28 12:18:50.391   527  1430 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-28 12:18:50.454   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:50.489   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 12:18:50.490   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:50.491   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 12:18:50.491   326  4630 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 12:18:50.521   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:50.523   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:50.592   326  4630 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 12:18:50.593   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:50.603   527   554 D AutofillManagerService: Close system dialogs
+07-28 12:18:50.605   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 12:18:50.622   527   555 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras)} from uid 0
+07-28 12:18:50.635   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.636   527   555 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.637   527   555 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:50.659   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 17, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+07-28 12:18:50.659   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=17)
+07-28 12:18:50.667  4308  4308 V CAM_QuickActivity: START onPause: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:50.667  4308  4308 V CAM_QuickActivity: onPause --> onPauseTasks()
+07-28 12:18:50.667  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CameraActivity.onPause - START
+07-28 12:18:50.672  4308  4308 V CAM_Profiler: [  0.000ms][ui] GUARD: CaptureModule.closeCamera() - START
+07-28 12:18:50.672  4308  4308 V CAM_Profiler: [  0.186ms][ui] GUARD: CaptureModule.closeCamera() - [ 0.186ms] mCameraOpenCloseLock.acquire()
+07-28 12:18:50.678   295  4125 W EmulatedCamera_QemuCamera3: flush: Not implemented; ignored
+07-28 12:18:50.678   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:50.686   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 12:18:50.696  1074  1074 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras) }
+07-28 12:18:50.701   527   554 D AutofillManagerService: Close system dialogs
+07-28 12:18:50.703   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 12:18:50.738   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f64f9000 0x3f6e5e000]
+07-28 12:18:50.791   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f4965000]
+07-28 12:18:50.857   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3fdb7b000 0x3fe4e0000]
+07-28 12:18:50.885   414   605 I Camera3-Device: disconnectImpl: E
+07-28 12:18:50.887   414   605 I CameraLatencyHistogram: ProcessCaptureRequest latency histogram (26) samples:
+07-28 12:18:50.888   414   605 I CameraLatencyHistogram:        40     80    120    160    200    240    280    320    360    inf (max ms)
+07-28 12:18:50.891   414   605 I CameraLatencyHistogram:      84.62   11.54   3.85   0.00   0.00   0.00   0.00   0.00   0.00   0.00 (%)
+07-28 12:18:50.944   414   605 I CameraLatencyHistogram: Stream 1 dequeueBuffer latency histogram (26) samples:
+07-28 12:18:50.944   414   605 I CameraLatencyHistogram:         5     10     15     20     25     30     35     40     45    inf (max ms)
+07-28 12:18:50.944   414   605 I CameraLatencyHistogram:      61.54   15.38   0.00   0.00   0.00   0.00   0.00   3.85   0.00   19.23 (%)
+07-28 12:18:50.944   414   605 I Camera3-Device: disconnectImpl: X
+07-28 12:18:50.946   414   605 I CameraService: disconnect: Disconnected client for camera 0 for PID 4308
+07-28 12:18:50.946  4308  4308 D CAM_LoggingImageReader: Closing: ImageReader{width=1280, height=960, format=YUV_420_888}
+07-28 12:18:50.947  4308  4308 I CAM_Profiler: [275.102ms][ui] GUARD: CaptureModule.closeCamera() - [274.916ms] mCamera.close()
+07-28 12:18:50.947  4308  4308 I CAM_Profiler: [275.268ms][ui] GUARD: CaptureModule.closeCamera() - STOP
+07-28 12:18:50.949  4308  4381 W android.camera: Long monitor contention with owner main (4308) at void android.hardware.camera2.impl.CameraDeviceImpl.close()(CameraDeviceImpl.java:1326) waiters=0 in void android.hardware.camera2.impl.CameraDeviceImpl$CameraDeviceCallbacks.onCaptureStarted(android.hardware.camera2.impl.CaptureResultExtras, long) for 211ms
+07-28 12:18:50.951  4308  4308 V CAM_LcyLocProvider: stopping location updates
+07-28 12:18:50.952  4308  4308 D CAM_LcyLocProvider: stopReceivingLocationUpdates
+07-28 12:18:50.952  4308  4308 V CAM_CameraActivity: onPause closing camera
+07-28 12:18:50.952  4308  4308 V CAM_CameraController: Closing camera
+07-28 12:18:50.953  4308  4337 W CAM2PORT_AndCamAgntImp: Releasing camera without any camera opened.
+07-28 12:18:50.953  4308  4308 I CAM_Profiler: [286.034ms][ui] GUARD: CameraActivity.onPause - STOP
+07-28 12:18:50.953  4308  4308 V CAM_QuickActivity: END onPause: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:50.957   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3fe4e0000 0x3fee45000]
+07-28 12:18:50.969   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.launcher3/30/com.android.launcher3.uioverrides.QuickstepLauncher/compiled_traces/compiled_trace.pb doesn't exist
+07-28 12:18:50.972   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 12:18:51.023  4308  4308 V CAM_TexViewHelper: onLayoutChange
+07-28 12:18:51.023  4308  4308 D CAM_CaptureModule: updatePreviewTransform: 1080 x 1977
+07-28 12:18:51.752  4308  4308 V CAM_QuickActivity: START onStop: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:51.753  4308  4308 D CAM_LcyLocProvider: disconnect
+07-28 12:18:51.753  4308  4308 V CAM_QuickActivity: END onStop: Activity = com.android.camera.CameraActivity@b3f441f
+07-28 12:18:52.334   399   399 I perfetto: probes_producer.cc:329  Producer stop (id=16)
+07-28 12:18:52.335   406   406 I perfetto: ng_service_impl.cc:1948 Tracing session 16 ended, total sessions:1
+07-28 12:18:52.539  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=523.98193, y[0]=1953.8782, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1673354, downTime=1673354, deviceId=6, source=0x5002, displayId=0 }
+07-28 12:18:52.662  1074  1074 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=523.98193, y[0]=1953.8782, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1673471, downTime=1673354, deviceId=6, source=0x5002, displayId=0 }
+07-28 12:18:52.666  1074  1074 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+07-28 12:18:52.668   527  1489 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.google.android.apps.maps cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity bnds=[440,1836][641,2084]} from uid 10109
+07-28 12:18:52.669   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 12:18:52.671   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:52.672   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 18, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+07-28 12:18:52.673   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=18)
+07-28 12:18:52.686   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.695   527  1489 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.697   527  1489 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.697   527  1489 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.698   527  1489 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:52.728   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f6e5e000 0x3f77c3000]
+07-28 12:18:52.815   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:52.858   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:18:52.856   208   208 W Binder:208_1: type=1400 audit(0.0:130): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:18:52.867   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:18:52.864   208   208 W Binder:208_1: type=1400 audit(0.0:131): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:18:52.958   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:52.967   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:52.975   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:52.985   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:52.990   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:52.998   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.003  2231  2249 W droid.apps.map: Reducing the number of considered missed Gc histogram windows from 162 to 100
+07-28 12:18:53.007   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.012   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.025   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.032   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.040   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.045   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.056   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.060   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.075   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.079   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.090   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.094   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.108   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.111   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.124   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.129   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.140   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.147   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.157   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.162   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.174   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.179   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.190   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.196   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.207   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.212   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.224   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.232   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.241   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.245   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.258   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.262   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641110
+07-28 12:18:53.274   304   551 W EmuHWC2 : validate: layer 70 CompositionType 1, fallback
+07-28 12:18:53.278   304   551 W EmuHWC2 : No layers, exit, buffer 0xea641910
+07-28 12:18:53.358   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 12:18:53.358   335   335 E Layer   : [Surface(name=Task=16)/@0x96b4448 - animation-leash#0] No local sync point found
+07-28 12:18:53.373   335   335 E Layer   : [Surface(name=Task=1)/@0x85f43ad - animation-leash#0] No local sync point found
+07-28 12:18:53.373   335   335 E Layer   : [Surface(name=Task=16)/@0x96b4448 - animation-leash#0] No local sync point found
+07-28 12:18:53.384   426  4493 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+07-28 12:18:53.384   438   923 D BufferPoolAccessor2.0: bufferpool2 0xef583658 : 0(0 size) total buffers - 0(0 size) used buffers - 28/30 (recycle/alloc) - 2/29 (fetch/transfer)
+07-28 12:18:53.384   438   923 D BufferPoolAccessor2.0: bufferpool2 0xef5819a8 : 0(0 size) total buffers - 0(0 size) used buffers - 29/30 (recycle/alloc) - 1/29 (fetch/transfer)
+07-28 12:18:53.384   438   923 D BufferPoolAccessor2.0: evictor expired: 4, evicted: 2
+07-28 12:18:53.426  4308  4346 D BufferPoolAccessor2.0: bufferpool2 0xf404d7d8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/64 (fetch/transfer)
+07-28 12:18:53.426  4308  4346 D BufferPoolAccessor2.0: bufferpool2 0xf404b908 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 6/64 (fetch/transfer)
+07-28 12:18:53.426  4308  4346 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 2
+07-28 12:18:53.466   527  4174 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10102; state: ENABLED
+07-28 12:18:53.467  2231  4654 I FA      : Tag Manager is not found and thus will not be used
+07-28 12:18:53.609  1697  1740 I gle.android.gm: Waiting for a blocking GC ProfileSaver
+07-28 12:18:53.640  1697  2536 I FontsSharedState: Updating from directory version 0 to 17 from disk
+07-28 12:18:53.653  1697  2536 I FontsContentProvider: Received query Google Sans:500, URI content://com.google.android.gms.fonts
+07-28 12:18:53.654  1697  2536 I FontsContentProvider: Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false}
+07-28 12:18:53.661  1697  2536 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+07-28 12:18:53.685  1697  2584 I FontsContentProvider: Pulling font file for id = 1, cache size = 1
+07-28 12:18:53.703  1697  1712 I gle.android.gm: Background concurrent copying GC freed 28458(1350KB) AllocSpace objects, 18(872KB) LOS objects, 49% free, 7629KB/14MB, paused 1.361ms total 131.317ms
+07-28 12:18:53.705  1697  2584 I FontsContentProvider: Received query Google Sans:500, URI content://com.google.android.gms.fonts
+07-28 12:18:53.705  1697  2584 I FontsContentProvider: Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false}
+07-28 12:18:53.705  1697  1712 W gle.android.gm: Reducing the number of considered missed Gc histogram windows from 132 to 100
+07-28 12:18:53.705  1697  1740 I gle.android.gm: WaitForGcToComplete blocked ProfileSaver on ProfileSaver for 96.429ms
+07-28 12:18:53.712  1697  2584 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+07-28 12:18:53.728  1697  4583 I FontsContentProvider: Pulling font file for id = 2, cache size = 2
+07-28 12:18:53.986  1697  4583 I FontsContentProvider: Received query Google Sans, URI content://com.google.android.gms.fonts
+07-28 12:18:53.986  1697  4583 I FontsContentProvider: Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+07-28 12:18:53.989  1697  4583 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+07-28 12:18:53.999  1697  2584 I FontsContentProvider: Pulling font file for id = 3, cache size = 3
+07-28 12:18:54.002  2231  2249 I droid.apps.map: Background concurrent copying GC freed 5075(609KB) AllocSpace objects, 18(2412KB) LOS objects, 49% free, 9266KB/18MB, paused 842us total 114.094ms
+07-28 12:18:54.039  1697  2584 I FontsContentProvider: Received query Google Sans, URI content://com.google.android.gms.fonts
+07-28 12:18:54.039  1697  2584 I FontsContentProvider: Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+07-28 12:18:54.053  1697  2584 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+07-28 12:18:54.074  1697  2584 I FontsContentProvider: Pulling font file for id = 4, cache size = 4
+07-28 12:18:54.273  2231  4642 D HostConnection: HostConnection::get() New Host Connection established 0xf44289c0, tid 4642
+07-28 12:18:54.277  2231  4642 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:54.277  2231  4642 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-28 12:18:54.287  2231  2231 W View    : requestLayout() improperly called by android.widget.LinearLayout{9e4ee9b V.E...... ......ID 0,490-1080,793 #7f0b012b app:id/compass_container} during layout: running second layout pass
+07-28 12:18:54.287  2231  2231 W View    : requestLayout() improperly called by com.google.android.apps.gmm.map.ui.CompassButtonView{e0f0238 I.E...... ......I. 915,171-1047,303 #7f0b00d3 app:id/base_compass_button} during layout: running second layout pass
+07-28 12:18:54.290   335   384 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10102 pid=2231
+07-28 12:18:54.290   335   384 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10102 => denied (392 us)
+07-28 12:18:54.307  2231  4642 D EGL_emulation: eglCreateContext: 0xf4420450: maj 2 min 0 rcv 2
+07-28 12:18:54.311  2231  4642 D EGL_emulation: eglMakeCurrent: 0xf4420450: ver 2 0 (tinfo 0xc0e04f50) (first time)
+07-28 12:18:54.325   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f8965000 0x3f92ca000]
+07-28 12:18:54.330   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+07-28 12:18:54.330  2231  4642 I Gralloc4: mapper 4.x is not supported
+07-28 12:18:54.332  2231  4642 D HostConnection: createUnique: call
+07-28 12:18:54.334  2231  4642 D HostConnection: HostConnection::get() New Host Connection established 0xf44203e0, tid 4642
+07-28 12:18:54.335  2231  4642 D goldfish-address-space: allocate: Ask for block of size 0x100
+07-28 12:18:54.335  2231  4642 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f3ffe000 size 0x2000
+07-28 12:18:54.343  2231  4642 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:54.385  2231  2248 I droid.apps.map: JIT allocated 61KB for compiled code of boolean bmbt.a(bmgo, java.lang.Object, bmfs)
+07-28 12:18:54.386  2231  2248 I droid.apps.map: Compiler allocated 4466KB to compile boolean bmbt.a(bmgo, java.lang.Object, bmfs)
+07-28 12:18:54.611   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3fd2ca000 0x3fdc2f000]
+07-28 12:18:54.658  2231  4642 I OpenGLRenderer: Davey! duration=816ms; Flags=1, IntendedVsync=1674654428390, Vsync=1674987761710, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1674993933700, AnimationStart=1674993968200, PerformTraversalsStart=1674997394800, DrawStart=1675166074500, SyncQueued=1675171302800, SyncStart=1675173922300, IssueDrawCommandsStart=1675178453100, SwapBuffers=1675401837700, FrameCompleted=1675473316900, DequeueBufferDuration=45936400, QueueBufferDuration=6786900, GpuCompleted=7412800351391678987, 
+07-28 12:18:54.684   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 12:18:54.705   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.maps/1043701040/com.google.android.maps.MapsActivity/compiled_traces/compiled_trace.pb doesn't exist
+07-28 12:18:54.710   527   564 I ActivityTaskManager: Displayed com.google.android.apps.maps/com.google.android.maps.MapsActivity: +2s14ms
+07-28 12:18:54.758  2231  4663 D HostConnection: HostConnection::get() New Host Connection established 0xf44315c0, tid 4663
+07-28 12:18:54.797  2231  4663 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:54.807  2231  4663 D EGL_emulation: eglCreateContext: 0xf4431010: maj 2 min 0 rcv 2
+07-28 12:18:54.809   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f08da000]
+07-28 12:18:54.825  2231  4663 D EGL_emulation: eglMakeCurrent: 0xf4431010: ver 2 0 (tinfo 0xc0e05790) (first time)
+07-28 12:18:55.082  2231  2231 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+07-28 12:18:55.211  2231  2249 I droid.apps.map: Background young concurrent copying GC freed 55176(3878KB) AllocSpace objects, 17(2304KB) LOS objects, 0% free, 19MB/19MB, paused 1.734ms total 235.935ms
+07-28 12:18:55.251   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f08da000 0x3f123f000]
+07-28 12:18:55.257  2231  4642 I OpenGLRenderer: Davey! duration=1064ms; Flags=1, IntendedVsync=1675004475410, Vsync=1675887808708, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=1675898476400, AnimationStart=1675898491700, PerformTraversalsStart=1675899056500, DrawStart=1675926003900, SyncQueued=1675954954400, SyncStart=1675959243000, IssueDrawCommandsStart=1675959384800, SwapBuffers=1676035667200, FrameCompleted=1676073175200, DequeueBufferDuration=6406200, QueueBufferDuration=29990900, GpuCompleted=2453298604776941486, 
+07-28 12:18:55.495  2231  2277 W droid.apps.map: Long monitor contention with owner TilePrepPool1 (4667) at zjv zmv.a(java.lang.String, zim, cgiy)(PG:101) waiters=1 in zjv zmv.a(java.lang.String, zim, cgiy) for 515ms
+07-28 12:18:55.495  2231  4663 W droid.apps.map: Long monitor contention with owner DefaultPool2 (2277) at void yzm.a(cglj)(PG:31) waiters=0 in zim zej.b() for 452ms
+07-28 12:18:55.518   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f123f000 0x3f1b19000]
+07-28 12:18:55.639  2231  2249 I droid.apps.map: Background concurrent copying GC freed 48081(2391KB) AllocSpace objects, 29(4668KB) LOS objects, 50% free, 20MB/41MB, paused 2.281ms total 425.658ms
+07-28 12:18:55.661   399   399 I perfetto: probes_producer.cc:329  Producer stop (id=17)
+07-28 12:18:55.663   406   406 I perfetto: ng_service_impl.cc:1948 Tracing session 17 ended, total sessions:1
+07-28 12:18:55.704   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device manifest.
+07-28 12:18:55.705  2231  4671 W Gralloc4: allocator 3.x is not supported
+07-28 12:18:55.708   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f1b19000 0x3f1b74000]
+07-28 12:18:55.721   527  1430 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-28 12:18:55.732  2231  4673 D HostConnection: HostConnection::get() New Host Connection established 0xf4433e00, tid 4673
+07-28 12:18:55.775  2231  4673 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:55.779  2231  4673 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-28 12:18:55.785   527   541 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:55.824  2231  4673 D EGL_emulation: eglCreateContext: 0xf44170e0: maj 2 min 0 rcv 2
+07-28 12:18:55.833  2231  4673 D EGL_emulation: eglMakeCurrent: 0xf44170e0: ver 2 0 (tinfo 0xc0e17ad0) (first time)
+07-28 12:18:55.841  2231  4671 D HostConnection: HostConnection::get() New Host Connection established 0xf4426880, tid 4671
+07-28 12:18:55.875  2231  4671 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:55.927  2231  4663 W droid.apps.map: Long monitor contention with owner LabelingPool1 (4664) at java.lang.Long zej.a(java.lang.Long, int, bxdl)(PG:125) waiters=0 in zim zej.b() for 297ms
+07-28 12:18:55.947   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f1b74000 0x3f244e000]
+07-28 12:18:56.034   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f244e000 0x3f24a9000]
+07-28 12:18:56.072   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f24a9000 0x3f2504000]
+07-28 12:18:56.142   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f2504000 0x3f255f000]
+07-28 12:18:56.737  4308  4324 W MessageQueue: Handler (android.os.Handler) {10bcbf7} sending message to a Handler on a dead thread
+07-28 12:18:56.737  4308  4324 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {10bcbf7} sending message to a Handler on a dead thread
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:697)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.os.Handler.post(Handler.java:427)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.hardware.camera2.impl.CameraDeviceImpl$CameraHandlerExecutor.execute(CameraDeviceImpl.java:2155)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.hardware.camera2.impl.CallbackProxies$SessionStateCallbackProxy.onClosed(CallbackProxies.java:104)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.hardware.camera2.impl.CameraCaptureSessionImpl.close(CameraCaptureSessionImpl.java:587)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at android.hardware.camera2.impl.CameraCaptureSessionImpl.finalize(CameraCaptureSessionImpl.java:878)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+07-28 12:18:56.737  4308  4324 W MessageQueue: 	at java.lang.Thread.run(Thread.java:923)
+07-28 12:18:56.737   414   606 I Camera3-Device: disconnectImpl: E
+07-28 12:18:56.737   414   606 I Camera2ClientBase: Closed Camera 0. Client was: com.android.camera2 (PID 4308, UID 10091)
+07-28 12:18:56.737   414   606 I Camera3-Device: disconnectImpl: E
+07-28 12:18:56.964   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 12:18:56.965   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:56.966   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 12:18:56.967   326  4686 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 12:18:56.974   527   614 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:56.974   527   614 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:56.982   527   541 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:57.069   326  4686 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 12:18:57.070   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:57.116   326   326 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+07-28 12:18:57.117   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:57.118   527  1183 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:18:57.120   326   326 I android.hardware.vibrator-service.example: Vibrator perform
+07-28 12:18:57.120   326  4688 I android.hardware.vibrator-service.example: Starting perform on another thread
+07-28 12:18:57.134   527   554 D AutofillManagerService: Close system dialogs
+07-28 12:18:57.136   527   555 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras)} from uid 0
+07-28 12:18:57.137   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 12:18:57.147   406   406 I perfetto: ing_service_impl.cc:758 Configured tracing session 19, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+07-28 12:18:57.149   399   399 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=19)
+07-28 12:18:57.167   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+07-28 12:18:57.169   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.174   527   614 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.175   527   614 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+07-28 12:18:57.205  1074  1074 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher (has extras) }
+07-28 12:18:57.224   326  4688 I android.hardware.vibrator-service.example: Notifying perform complete
+07-28 12:18:57.228   326   326 I android.hardware.vibrator-service.example: Vibrator off
+07-28 12:18:57.239   527   554 D AutofillManagerService: Close system dialogs
+07-28 12:18:57.252   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f255f000 0x3f2ec4000]
+07-28 12:18:57.280   711   711 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4ff07a9 I.E...... ......ID 0,0-1080,2280} canPanelBeCollapsed(): false
+07-28 12:18:57.286   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f2ec4000 0x3f3829000]
+07-28 12:18:57.290   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f64f9000 0x3f6e5e000]
+07-28 12:18:57.353   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f6e5e000 0x3f77c3000]
+07-28 12:18:57.403   527   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+07-28 12:18:57.409   527   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.launcher3/30/com.android.launcher3.uioverrides.QuickstepLauncher/compiled_traces/compiled_trace.pb doesn't exist
+07-28 12:18:57.651   711   728 I ndroid.systemu: NativeAlloc concurrent copying GC freed 5411(352KB) AllocSpace objects, 2(40KB) LOS objects, 49% free, 6107KB/11MB, paused 1.084ms total 231.403ms
+07-28 12:18:57.682   399   399 I perfetto: probes_producer.cc:329  Producer stop (id=18)
+07-28 12:18:57.692   406   406 I perfetto: ng_service_impl.cc:1948 Tracing session 18 ended, total sessions:1
+07-28 12:18:57.746  2231  2249 I droid.apps.map: Background young concurrent copying GC freed 160320(7284KB) AllocSpace objects, 144(10016KB) LOS objects, 17% free, 33MB/41MB, paused 550us total 900.879ms
+07-28 12:18:58.109   527  3568 D HostConnection: HostConnection::get() New Host Connection established 0xf4436800, tid 3568
+07-28 12:18:58.115   527  3568 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+07-28 12:18:58.115   527  3568 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-28 12:18:58.143   527  3568 D EGL_emulation: eglCreateContext: 0xf443b420: maj 2 min 0 rcv 2
+07-28 12:18:58.147   527  3568 D EGL_emulation: eglMakeCurrent: 0xf443b420: ver 2 0 (tinfo 0xbea0c150) (first time)
+07-28 12:18:58.429   527   537 I system_server: NativeAlloc concurrent copying GC freed 186515(8382KB) AllocSpace objects, 24(608KB) LOS objects, 49% free, 12MB/24MB, paused 519us total 183.644ms
+07-28 12:18:59.534  2231  2249 I droid.apps.map: ThreadFlipBegin blocked for 8.343ms
+07-28 12:19:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1219
+07-28 12:19:00.075   527  4174 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:19:01.077   391   391 W adbd    : timeout expired while flushing socket, closing
+07-28 12:19:02.173   399   399 I perfetto: probes_producer.cc:329  Producer stop (id=19)
+07-28 12:19:02.175   406   406 I perfetto: ng_service_impl.cc:1948 Tracing session 19 ended, total sessions:0
+07-28 12:19:02.176   399   399 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+07-28 12:19:02.164     0     0 W perfetto: disabled ftrace
+07-28 12:19:03.334  2231  2231 V NFC     : this device does not have NFC support
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: Exception thrown while unbinding
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: java.lang.IllegalArgumentException: Service not registered: lm@a412631
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1757)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at android.app.ContextImpl.unbindService(ContextImpl.java:1874)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:792)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at ce.b(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):1)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at ce.a(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):5)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at ln.A(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):10)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at ky.a(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):3)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at dy.run(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):2)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+07-28 12:19:04.350  2231  4654 W ConnectionTracker: 	at iw.run(:com.google.android.gms.dynamite_measurementdynamite@201817052@20.18.17 (040700-0):15)
+07-28 12:19:05.928  1215  1215 W SystemServiceRegistry: No service published for: persistent_data_block
+07-28 12:19:08.046   527   541 D WifiNl80211Manager: Scan result ready event
+07-28 12:19:08.046   527   541 D WifiNative: Scan result ready event
+07-28 12:19:17.630   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:19:17.630   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:19:17.994   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:19:17.994   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:19:21.308   208   208 W Binder:208_1: type=1400 audit(0.0:132): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:19:21.310   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:19:21.317   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:19:21.312   208   208 W Binder:208_1: type=1400 audit(0.0:133): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:19:23.271  1697  2615 I CastDatabase: Saving the database
+07-28 12:19:23.276  1697  2615 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
+07-28 12:19:58.086   527   565 W ActivityManager: Stopping service due to app idle: u0a102 -1m4s658ms com.google.android.apps.maps/com.google.android.apps.gmm.util.systemhealth.impl.SystemHealthService
+07-28 12:20:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1220
+07-28 12:20:17.693   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:20:17.693   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:20:18.049   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:20:18.049   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:20:26.243     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:20:28.050   527  4174 D WifiNl80211Manager: Scan result ready event
+07-28 12:20:28.050   527  4174 D WifiNative: Scan result ready event
+07-28 12:20:59.215   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:20:59.212   208   208 W Binder:208_1: type=1400 audit(0.0:134): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:20:59.225   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:20:59.224   208   208 W Binder:208_1: type=1400 audit(0.0:135): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:21:00.005   711   711 D KeyguardClockSwitch: Updating clock: 1221
+07-28 12:21:17.756   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:21:17.756   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:21:18.106   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:21:18.106   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:21:53.864   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:21:53.860   208   208 W Binder:208_1: type=1400 audit(0.0:136): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:21:53.879   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:21:53.876   208   208 W Binder:208_1: type=1400 audit(0.0:137): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:22:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1222
+07-28 12:22:08.980   208   208 W Binder:208_1: type=1400 audit(0.0:138): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:22:08.982   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:22:08.985   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:22:08.980   208   208 W Binder:208_1: type=1400 audit(0.0:139): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:22:17.808   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:22:17.808   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:22:18.119   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:22:18.119   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:22:56.807   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:22:56.804   208   208 W Binder:208_1: type=1400 audit(0.0:140): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:22:56.821   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:22:56.816   208   208 W Binder:208_1: type=1400 audit(0.0:141): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:23:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1223
+07-28 12:23:08.014   527   618 I ActivityManager: Killing 2447:com.google.android.gms.ui/u0a87 (adj 955): empty for 1874s
+07-28 12:23:08.014   527   618 I ActivityManager: Killing 2329:com.android.externalstorage/u0a48 (adj 955): empty for 1877s
+07-28 12:23:08.015   527   618 I ActivityManager: Killing 2204:com.android.traceur/u0a82 (adj 965): empty for 1879s
+07-28 12:23:08.015   527   618 I ActivityManager: Killing 2179:com.android.shell/2000 (adj 965): empty for 1879s
+07-28 12:23:08.074   527  4174 D WifiNl80211Manager: Scan result ready event
+07-28 12:23:08.074   527  4174 D WifiNative: Scan result ready event
+07-28 12:23:08.081   287   287 I Zygote  : Process 2179 exited due to signal 9 (Killed)
+07-28 12:23:08.083   527  4174 I ActivityManager: Killing 1754:android.process.media/u0a49 (adj 945): empty for 1872s
+07-28 12:23:08.084   287   287 I Zygote  : Process 2329 exited due to signal 9 (Killed)
+07-28 12:23:08.091   287   287 I Zygote  : Process 2204 exited due to signal 9 (Killed)
+07-28 12:23:08.098   287   287 I Zygote  : Process 1754 exited due to signal 9 (Killed)
+07-28 12:23:08.098   287   287 I Zygote  : Process 2447 exited due to signal 9 (Killed)
+07-28 12:23:08.126   527   564 I ProcessStatsService: Pruning old procstats: /data/system/procstats/state-2022-05-27-12-07-06.bin
+07-28 12:23:08.131   527   567 I libprocessgroup: Successfully killed process cgroup uid 10087 pid 2447 in 115ms
+07-28 12:23:08.131   527   567 I libprocessgroup: Successfully killed process cgroup uid 10048 pid 2329 in 0ms
+07-28 12:23:08.131   527   567 I libprocessgroup: Successfully killed process cgroup uid 10082 pid 2204 in 0ms
+07-28 12:23:08.132   527   567 I libprocessgroup: Successfully killed process cgroup uid 2000 pid 2179 in 0ms
+07-28 12:23:08.132   527   567 I libprocessgroup: Successfully killed process cgroup uid 10049 pid 1754 in 0ms
+07-28 12:23:08.176  1697  2272 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+07-28 12:23:08.176  1697  2272 I Checkin : [EventLogChimeraService] Aggregate from 1658986187125 (log), 1658986187125 (data)
+07-28 12:21:15.869     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:23:08.166     0     0 D logd    : logdr: UID=10087 GID=10087 PID=1697 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+07-28 12:23:08.199   527  1489 I DropBoxManagerService: add tag=event_data isTagEnabled=true flags=0x2
+07-28 12:23:08.206   527   565 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+07-28 12:23:08.206   527   565 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+07-28 12:23:17.825   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:23:17.825   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:23:18.123   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:23:18.123   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:23:24.756   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:23:24.759   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:23:24.752   208   208 W Binder:208_1: type=1400 audit(0.0:142): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:23:24.756   208   208 W Binder:208_1: type=1400 audit(0.0:143): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:23:56.829   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:23:56.824   208   208 W Binder:208_1: type=1400 audit(0.0:144): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:23:56.833   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:23:56.828   208   208 W Binder:208_1: type=1400 audit(0.0:145): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:24:00.001   711   711 D KeyguardClockSwitch: Updating clock: 1224
+07-28 12:24:09.502  1215  1215 W GCM     : Heartbeat timeout, GCM connection reset -4
+07-28 12:24:09.502   527   565 I ActivityManager: Killing 2636:com.android.cellbroadcastreceiver.module/u0a117 (adj 995): empty for 1932s
+07-28 12:24:09.514   287   287 I Zygote  : Process 2636 exited due to signal 9 (Killed)
+07-28 12:24:09.516  1215  4715 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+07-28 12:24:09.516  1215  4715 W WakeLock: GCM_HB_ALARM counter does not exist
+07-28 12:24:09.518   527   645 D ConnectivityService: reportNetworkConnectivity(101, false) by 10087
+07-28 12:24:09.518   887  1853 D NetworkMonitor/101: Forcing reevaluation for UID 10087. Dns signal count: 0
+07-28 12:24:09.549   527   567 I libprocessgroup: Successfully killed process cgroup uid 10117 pid 2636 in 45ms
+07-28 12:24:09.625   887  4718 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 102ms OK 142.250.195.195,2404:6800:4007:827::2003
+07-28 12:24:09.627   887  4717 D NetworkMonitor/101: PROBE_DNS www.google.com 105ms OK 172.217.160.164,2404:6800:4009:80a::2004
+07-28 12:24:09.635  1215  4719 I NetworkManagementSocketTagger: tagSocketFd(-1, 536871943, -1) failed with errno-9
+07-28 12:24:09.992   887  4718 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=365ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Date=[Thu, 28 Jul 2022 06:54:12 GMT], X-Android-Received-Millis=[1658991249991], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1658991249633]}
+07-28 12:24:10.089   887  4717 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=460ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Connection=[close], Content-Length=[0], Date=[Thu, 28 Jul 2022 06:54:12 GMT], X-Android-Received-Millis=[1658991250087], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1658991250055]}
+07-28 12:24:10.093   887  4716 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=570ms
+07-28 12:24:10.093   527   565 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+07-28 12:24:10.094   527   645 D ConnectivityService: [101 WIFI] validation passed
+07-28 12:24:17.832   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:24:17.832   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:24:18.129   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:24:18.129   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:24:25.178   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:24:25.176   208   208 W Binder:208_1: type=1400 audit(0.0:146): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:24:25.182   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:24:25.180   208   208 W Binder:208_1: type=1400 audit(0.0:147): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:25:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1225
+07-28 12:25:17.861   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:25:17.861   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:25:18.135   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:25:18.135   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:25:48.074   527  3149 D WifiNl80211Manager: Scan result ready event
+07-28 12:25:48.074   527  3149 D WifiNative: Scan result ready event
+07-28 12:26:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1226
+07-28 12:26:17.894   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:26:17.894   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:26:18.139   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:26:18.139   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:26:26.259     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:26:57.951   952   968 W m.android.phon: Reducing the number of considered missed Gc histogram windows from 212 to 100
+07-28 12:26:57.973   952   970 W System  : A resource failed to call close. 
+07-28 12:26:57.973   952   970 W System  : A resource failed to call end. 
+07-28 12:26:57.973   952   970 W System  : A resource failed to call end. 
+07-28 12:27:00.005   711   711 D KeyguardClockSwitch: Updating clock: 1227
+07-28 12:27:17.900   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:27:17.900   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:27:18.175   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:27:18.175   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:28:00.005   711   711 D KeyguardClockSwitch: Updating clock: 1228
+07-28 12:28:17.932   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:28:17.932   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:28:18.181   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:28:18.181   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:28:26.269     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:28:28.082   527  3149 D WifiNl80211Manager: Scan result ready event
+07-28 12:28:28.082   527  3149 D WifiNative: Scan result ready event
+07-28 12:28:45.281   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:28:45.276   208   208 W Binder:208_1: type=1400 audit(0.0:148): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:28:45.283   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:28:45.280   208   208 W Binder:208_1: type=1400 audit(0.0:149): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:28:48.630   527  4174 D WifiNl80211Manager: Scan result ready event
+07-28 12:28:48.630   527  4174 D WifiNative: Scan result ready event
+07-28 12:29:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1229
+07-28 12:29:00.373   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:29:00.368   208   208 W Binder:208_1: type=1400 audit(0.0:150): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:29:00.378   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:29:00.376   208   208 W Binder:208_1: type=1400 audit(0.0:151): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:29:17.936   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:29:17.936   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:29:18.241   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:29:18.241   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:29:46.261   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:29:46.256   208   208 W Binder:208_1: type=1400 audit(0.0:152): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:29:46.265   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:29:46.264   208   208 W Binder:208_1: type=1400 audit(0.0:153): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1230
+07-28 12:30:01.303   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:30:01.300   208   208 W Binder:208_1: type=1400 audit(0.0:154): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:01.306   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:30:01.304   208   208 W Binder:208_1: type=1400 audit(0.0:155): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:17.970   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:30:17.970   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:30:18.270   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:30:18.270   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:30:31.180   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:30:31.176   208   208 W Binder:208_1: type=1400 audit(0.0:156): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:31.184   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:30:31.180   208   208 W Binder:208_1: type=1400 audit(0.0:157): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:46.364   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:30:46.360   208   208 W Binder:208_1: type=1400 audit(0.0:158): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:30:46.367   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:30:46.364   208   208 W Binder:208_1: type=1400 audit(0.0:159): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:31:00.005   711   711 D KeyguardClockSwitch: Updating clock: 1231
+07-28 12:31:08.083   527  3149 D WifiNl80211Manager: Scan result ready event
+07-28 12:31:08.083   527  3149 D WifiNative: Scan result ready event
+07-28 12:31:15.868     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:31:18.023   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:31:18.023   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:31:18.301   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:31:18.301   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:31:27.859   527   564 I UsageStatsService: User[0] Flushing usage stats to disk
+07-28 12:32:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1232
+07-28 12:32:18.086   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:32:18.086   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:32:18.309   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:32:18.309   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:32:26.285     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:33:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1233
+07-28 12:33:18.114   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:33:18.114   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:33:18.362   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:33:18.363   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:33:48.087   527  3149 D WifiNl80211Manager: Scan result ready event
+07-28 12:33:48.087   527  3149 D WifiNative: Scan result ready event
+07-28 12:34:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1234
+07-28 12:34:18.145   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:34:18.146   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:34:18.369   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:34:18.369   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:34:26.301     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:34:55.489   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:34:55.484   208   208 W Binder:208_1: type=1400 audit(0.0:160): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:34:55.494   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:34:55.492   208   208 W Binder:208_1: type=1400 audit(0.0:161): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:35:00.005   711   711 D KeyguardClockSwitch: Updating clock: 1235
+07-28 12:35:10.548   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:35:10.544   208   208 W Binder:208_1: type=1400 audit(0.0:162): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:35:10.552   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:35:10.548   208   208 W Binder:208_1: type=1400 audit(0.0:163): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:35:18.207   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:35:18.207   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:35:18.429   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:35:18.429   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:36:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1236
+07-28 12:36:18.222   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:36:18.222   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:36:18.490   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:36:18.490   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:36:28.086   527  1105 D WifiNl80211Manager: Scan result ready event
+07-28 12:36:28.086   527  1105 D WifiNative: Scan result ready event
+07-28 12:37:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1237
+07-28 12:37:08.792     0     0 D logd    : logdr: UID=2000 GID=2000 PID=4747 n tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+07-28 12:37:11.891   527  1105 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.google.android.apps.youtube.music} from uid 2000
+07-28 12:37:11.892   527   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+07-28 12:37:11.893   527   557 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+07-28 12:37:12.046  4756  4756 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-28 12:37:12.048  4756  4756 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+07-28 12:37:12.048  4756  4756 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+07-28 12:37:12.049  4756  4756 I AndroidRuntime: Using default boot image
+07-28 12:37:12.052  4756  4756 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+07-28 12:37:12.052  4756  4756 I AndroidRuntime: Leaving lock profiling enabled
+07-28 12:37:12.052  4756  4756 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+07-28 12:37:12.054  4756  4756 I app_process: Core platform API reporting enabled, enforcing=false
+07-28 12:37:12.044  4756  4756 W app_process: type=1400 audit(0.0:164): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:12.048  4756  4756 I chatty  : uid=2000(shell) app_process identical 2 lines
+07-28 12:37:12.048  4756  4756 W app_process: type=1400 audit(0.0:167): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:12.108  4756  4756 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+07-28 12:37:12.108  4756  4756 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+07-28 12:37:12.117  4756  4756 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-28 12:37:12.127  4756  4756 I app_process: The ClassLoaderContext is a special shared library.
+07-28 12:37:12.137  4756  4756 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+07-28 12:37:12.140  4756  4756 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-28 12:37:12.147  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PLAY, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2772957, downTime=2772957, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:12.152  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MEDIA_PLAY, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2772957, downTime=2772957, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:12.154  4756  4756 D AndroidRuntime: Shutting down VM
+07-28 12:37:18.230   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:37:18.230   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:37:18.519   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:37:18.519   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:37:22.677  4771  4771 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-28 12:37:22.679  4771  4771 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+07-28 12:37:22.679  4771  4771 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+07-28 12:37:22.680  4771  4771 I AndroidRuntime: Using default boot image
+07-28 12:37:22.680  4771  4771 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+07-28 12:37:22.680  4771  4771 I AndroidRuntime: Leaving lock profiling enabled
+07-28 12:37:22.680  4771  4771 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+07-28 12:37:22.676  4771  4771 W app_process: type=1400 audit(0.0:168): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:22.682  4771  4771 I app_process: Core platform API reporting enabled, enforcing=false
+07-28 12:37:22.676  4771  4771 W app_process: type=1400 audit(0.0:169): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:22.676  4771  4771 I chatty  : uid=2000(shell) app_process identical 1 line
+07-28 12:37:22.676  4771  4771 W app_process: type=1400 audit(0.0:171): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:22.735  4771  4771 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+07-28 12:37:22.735  4771  4771 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+07-28 12:37:22.738  4771  4771 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-28 12:37:22.740  4771  4771 I app_process: The ClassLoaderContext is a special shared library.
+07-28 12:37:22.749  4771  4771 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+07-28 12:37:22.752  4771  4771 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-28 12:37:22.757   711  4786 W RingtonePlayer: STOP command without a player
+07-28 12:37:22.766  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_MUTE, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2783568, downTime=2783568, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:22.767   527  1105 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.launcher3, opPkg=com.android.launcher3, pid=1074, uid=10109, asSystem=true, event=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_MUTE, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2783568, downTime=2783568, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+07-28 12:37:22.767   527  1105 D MediaSessionService: Adjusting suggestedStream=-2147483648 by 101. flags=4113, preferSuggestedStream=false, session=null
+07-28 12:37:22.770  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_MUTE, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2783568, downTime=2783568, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:22.770   527  1105 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.launcher3, opPkg=com.android.launcher3, pid=1074, uid=10109, asSystem=true, event=KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_MUTE, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2783568, downTime=2783568, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+07-28 12:37:22.776  4771  4771 D AndroidRuntime: Shutting down VM
+07-28 12:37:22.781   711  1071 I vol.Events: writeEvent mute_changed STREAM_MUSIC true
+07-28 12:37:22.783   386   596 D APM_AudioPolicyManager: setVolumeCurveIndex: wrong index 0 min=1 max=15
+07-28 12:37:22.783   386   596 E APM_AudioPolicyManager: setVolumeIndexForAttributes failed to set curve index for group 1 device 0x40000000
+07-28 12:37:22.783   527   657 E AudioSystem-JNI: Command failed for android_media_AudioSystem_setStreamVolumeIndex: -22
+07-28 12:37:22.787   386   596 D APM_AudioPolicyManager: setVolumeCurveIndex: wrong index 0 min=1 max=15
+07-28 12:37:22.787   386   596 E APM_AudioPolicyManager: setVolumeIndexForAttributes failed to set curve index for group 1 device 0x40000000
+07-28 12:37:22.787   527   657 E AudioSystem-JNI: Command failed for android_media_AudioSystem_setStreamVolumeIndex: -22
+07-28 12:37:22.789   711  1071 I vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+07-28 12:37:22.794   711  1071 I vol.Events: writeEvent key STREAM_MUSIC 5
+07-28 12:37:22.827   711   711 I vol.Events: writeEvent show_dialog volume_changed keyguard=false
+07-28 12:37:22.844   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3829000 0x3f3933000]
+07-28 12:37:22.903   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3933000 0x3f3a3d000]
+07-28 12:37:22.933   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a3d000 0x3f3b47000]
+07-28 12:37:22.951   527   558 E system_server: No package ID ff found for ID 0xffffffff.
+07-28 12:37:22.957   335   335 E SurfaceFlinger: [VolumeDialogImpl#0] rejecting buffer: bufWidth=242, bufHeight=1122, front.active_legacy.{w=242, h=935}
+07-28 12:37:22.965   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3829000 0x3f3906000]
+07-28 12:37:22.998   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3906000 0x3f39e3000]
+07-28 12:37:23.007   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3906000 0x3f39e3000]
+07-28 12:37:23.299   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f39e3000 0x3f3ac0000]
+07-28 12:37:23.310   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3ac0000 0x3f3b9d000]
+07-28 12:37:25.801   711   711 I vol.Events: writeEvent dismiss_dialog timeout
+07-28 12:37:25.804   711  1071 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+07-28 12:37:26.313     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:37:33.269  4787  4787 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-28 12:37:33.271  4787  4787 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+07-28 12:37:33.271  4787  4787 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+07-28 12:37:33.271  4787  4787 I AndroidRuntime: Using default boot image
+07-28 12:37:33.271  4787  4787 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+07-28 12:37:33.271  4787  4787 I AndroidRuntime: Leaving lock profiling enabled
+07-28 12:37:33.271  4787  4787 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+07-28 12:37:33.273  4787  4787 I app_process: Core platform API reporting enabled, enforcing=false
+07-28 12:37:33.268  4787  4787 W app_process: type=1400 audit(0.0:172): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:33.268  4787  4787 I chatty  : uid=2000(shell) app_process identical 2 lines
+07-28 12:37:33.268  4787  4787 W app_process: type=1400 audit(0.0:175): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8310 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-28 12:37:33.316  4787  4787 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+07-28 12:37:33.317  4787  4787 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+07-28 12:37:33.320  4787  4787 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-28 12:37:33.321  4787  4787 I app_process: The ClassLoaderContext is a special shared library.
+07-28 12:37:33.330  4787  4787 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+07-28 12:37:33.335  4787  4787 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+07-28 12:37:33.491  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2794151, downTime=2794151, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:33.492   527  1202 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.launcher3, opPkg=com.android.launcher3, pid=1074, uid=10109, asSystem=true, event=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2794151, downTime=2794151, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+07-28 12:37:33.492   527  1202 D MediaSessionService: Adjusting suggestedStream=-2147483648 by 1. flags=4113, preferSuggestedStream=false, session=null
+07-28 12:37:33.498  1074  1074 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2794151, downTime=2794151, deviceId=-1, source=0x0, displayId=-1 }
+07-28 12:37:33.498   527  1202 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.android.launcher3, opPkg=com.android.launcher3, pid=1074, uid=10109, asSystem=true, event=KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2794151, downTime=2794151, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+07-28 12:37:33.498   527  1202 D MediaSessionService: Adjusting suggestedStream=-2147483648 by 0. flags=4116, preferSuggestedStream=false, session=null
+07-28 12:37:33.501   711  1071 I vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+07-28 12:37:33.501  4787  4787 D AndroidRuntime: Shutting down VM
+07-28 12:37:33.506   711  1071 I vol.Events: writeEvent key STREAM_MUSIC 5
+07-28 12:37:33.514   711   711 I vol.Events: writeEvent show_dialog volume_changed keyguard=false
+07-28 12:37:33.538   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3829000 0x3f3906000]
+07-28 12:37:33.569   303   303 D goldfish-address-space: claimShared: Ask to claim region [0x3f3906000 0x3f39e3000]
+07-28 12:37:33.575   303   360 D goldfish-address-space: claimShared: Ask to claim region [0x3f39e3000 0x3f3ac0000]
+07-28 12:37:36.075   527  1202 W ActivityManager: Invalid packageName: com.google.android.apps.youtube.music
+07-28 12:37:36.077  4806  4808 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+07-28 12:37:36.509   711   711 I vol.Events: writeEvent dismiss_dialog timeout
+07-28 12:37:36.511   711  1071 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+07-28 12:38:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1238
+07-28 12:38:18.261   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:38:18.261   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:38:18.563   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:38:18.563   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:38:21.197  1215  4719 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+07-28 12:38:21.210   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:38:21.200   208   208 W Binder:208_1: type=1400 audit(0.0:176): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:38:21.215   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:38:21.212   208   208 W Binder:208_1: type=1400 audit(0.0:177): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:38:36.372   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:38:36.374   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:38:36.368   208   208 W Binder:208_1: type=1400 audit(0.0:178): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:38:36.372   208   208 W Binder:208_1: type=1400 audit(0.0:179): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:38:55.360   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:38:55.356   208   208 W Binder:208_1: type=1400 audit(0.0:180): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:38:55.365   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:38:55.360   208   208 W Binder:208_1: type=1400 audit(0.0:181): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:39:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1239
+07-28 12:39:08.099   527   614 D WifiNl80211Manager: Scan result ready event
+07-28 12:39:08.099   527   614 D WifiNative: Scan result ready event
+07-28 12:39:10.432   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:39:10.428   208   208 W Binder:208_1: type=1400 audit(0.0:182): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:39:10.437   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:39:10.436   208   208 W Binder:208_1: type=1400 audit(0.0:183): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:39:18.300   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:39:18.300   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:39:18.624   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:39:18.624   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:40:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1240
+07-28 12:40:18.305   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:40:18.305   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:40:18.632   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:40:18.632   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:40:26.320     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:41:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1241
+07-28 12:41:18.360   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:41:18.360   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:41:18.640   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:41:18.640   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:41:48.102   527  3149 D WifiNl80211Manager: Scan result ready event
+07-28 12:41:48.102   527  3149 D WifiNative: Scan result ready event
+07-28 12:42:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1242
+07-28 12:42:18.368   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:42:18.368   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:42:18.702   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:42:18.703   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:41:15.869     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:42:26.339     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:43:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1243
+07-28 12:43:18.384   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:43:18.384   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:43:18.763   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:43:18.763   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:44:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1244
+07-28 12:44:00.014   711   711 D KeyguardClockSwitch: Updating clock: 1244
+07-28 12:44:18.410   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:44:18.410   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:44:18.824   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:44:18.824   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:44:26.353     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:44:34.153   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:44:34.148   208   208 W Binder:208_1: type=1400 audit(0.0:184): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:44:34.157   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:44:34.156   208   208 W Binder:208_1: type=1400 audit(0.0:185): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:44:49.364   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:44:49.360   208   208 W Binder:208_1: type=1400 audit(0.0:186): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:44:49.368   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:44:49.364   208   208 W Binder:208_1: type=1400 audit(0.0:187): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:45:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1245
+07-28 12:45:18.417   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:45:18.417   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:45:18.829   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:45:18.829   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:46:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1246
+07-28 12:46:11.271  1215  4719 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+07-28 12:46:11.279   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:46:11.282   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:46:11.276   208   208 W Binder:208_1: type=1400 audit(0.0:188): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:46:11.280   208   208 W Binder:208_1: type=1400 audit(0.0:189): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:46:15.067   527  1202 D WifiNl80211Manager: Scan result ready event
+07-28 12:46:15.067   527  1202 D WifiNative: Scan result ready event
+07-28 12:46:18.426   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:46:18.426   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:46:18.891   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:46:18.891   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:46:26.400   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:46:26.396   208   208 W Binder:208_1: type=1400 audit(0.0:190): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:46:26.404   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:46:26.400   208   208 W Binder:208_1: type=1400 audit(0.0:191): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:47:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1247
+07-28 12:47:18.442   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:47:18.442   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:47:18.952   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:47:18.952   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:48:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1248
+07-28 12:48:14.313   690  1139 W BtGatt.ScanManager: Moving scan client to opportunistic (scannerId 6)
+07-28 12:48:18.502   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:48:18.502   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:48:18.974   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:48:18.974   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:48:22.707   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:48:22.704   208   208 W Binder:208_1: type=1400 audit(0.0:192): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:48:22.713   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:48:22.708   208   208 W Binder:208_1: type=1400 audit(0.0:193): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:48:37.722   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:48:37.720   208   208 W Binder:208_1: type=1400 audit(0.0:194): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:48:37.726   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:48:37.720   208   208 W Binder:208_1: type=1400 audit(0.0:195): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:48:55.070   527  1489 D WifiNl80211Manager: Scan result ready event
+07-28 12:48:55.070   527  1489 D WifiNative: Scan result ready event
+07-28 12:49:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1249
+07-28 12:49:18.509   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:49:18.509   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:49:18.993   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:49:18.994   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:50:00.007   711   711 D KeyguardClockSwitch: Updating clock: 1250
+07-28 12:50:18.523   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:50:18.523   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:50:19.007   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:50:19.007   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:50:26.371     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:50:58.577   952   968 W m.android.phon: Reducing the number of considered missed Gc histogram windows from 144 to 100
+07-28 12:50:59.208   208   208 W Binder:208_1: type=1400 audit(0.0:196): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:50:59.209   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:50:59.215   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:50:59.208   208   208 W Binder:208_1: type=1400 audit(0.0:197): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:51:00.003   711   711 D KeyguardClockSwitch: Updating clock: 1251
+07-28 12:51:18.527   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:51:18.527   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:51:19.024   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:51:19.024   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:51:21.810   424   449 D AudioAnalytics: expiring previous audio state after 3600 seconds.
+07-28 12:37:41.118   527  1202 W ActivityManager: Invalid packageName: com.google.android.apps.youtube.music
+07-28 12:51:28.039   527   564 I UsageStatsService: User[0] Flushing usage stats to disk
+07-28 12:52:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1252
+07-28 12:52:18.576   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:52:18.576   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:52:19.085   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:52:19.085   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:51:15.870     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:52:26.379     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 12:53:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1253
+07-28 12:53:08.283   527  1489 D WifiNl80211Manager: Scan result ready event
+07-28 12:53:08.283   527  1489 D WifiNative: Scan result ready event
+07-28 12:53:08.350  1697  2615 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+07-28 12:53:08.350  1697  2615 I Checkin : [EventLogChimeraService] Aggregate from 1658991188176 (log), 1658991188176 (data)
+07-28 12:53:08.340     0     0 D logd    : logdr: UID=10087 GID=10087 PID=1697 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+07-28 12:53:08.365  1697  2373 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+07-28 12:53:08.377   527  1489 I DropBoxManagerService: add tag=event_data isTagEnabled=true flags=0x2
+07-28 12:53:08.382   527   565 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+07-28 12:53:08.382   527   565 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+07-28 12:53:08.400  1697  2373 I ChmraDebugLogger: [73] 1801
+07-28 12:53:08.402  1697  2373 I ChmraDebugLogger: [30] [VisionOcr.optional:201817000700] permitMetered=true,[Pay.optional:201817020000] permitMetered=true,
+07-28 12:53:08.408  1697  2373 W ChimeraConfigService: Retry attempt was throttled.
+07-28 12:53:08.422  1697  1712 W gle.android.gm: Reducing the number of considered missed Gc histogram windows from 204 to 100
+07-28 12:53:08.585   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:53:08.580   208   208 W Binder:208_1: type=1400 audit(0.0:198): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:53:08.589   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:53:08.588   208   208 W Binder:208_1: type=1400 audit(0.0:199): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:53:08.597  1215  2441 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+07-28 12:53:08.597  1215  2441 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+07-28 12:53:08.597  1215  2441 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817022@20.18.17 (040700-311416286):0)
+07-28 12:53:08.895  1215  2441 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+07-28 12:53:08.896  1215  2441 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+07-28 12:53:08.896  1215  2441 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817022@20.18.17 (040700-311416286):0)
+07-28 12:53:18.583   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:53:18.583   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:53:19.147   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:53:19.147   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:53:24.451   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:53:24.448   208   208 W Binder:208_1: type=1400 audit(0.0:200): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:53:24.461   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:53:24.460   208   208 W Binder:208_1: type=1400 audit(0.0:201): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:54:00.007   711   711 D KeyguardClockSwitch: Updating clock: 1254
+07-28 12:54:01.333  1215  4719 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+07-28 12:54:01.343   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:54:01.340   208   208 W Binder:208_1: type=1400 audit(0.0:202): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:54:01.347   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:54:01.344   208   208 W Binder:208_1: type=1400 audit(0.0:203): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:54:16.416   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:54:16.412   208   208 W Binder:208_1: type=1400 audit(0.0:204): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:54:16.420   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:54:16.416   208   208 W Binder:208_1: type=1400 audit(0.0:205): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:54:18.619   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:54:18.619   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:54:19.208   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:54:19.208   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:55:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1255
+07-28 12:55:18.683   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:55:18.683   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:55:19.269   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:55:19.269   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:55:48.279   527   900 D WifiNl80211Manager: Scan result ready event
+07-28 12:55:48.279   527   900 D WifiNative: Scan result ready event
+07-28 12:56:00.002   711   711 D KeyguardClockSwitch: Updating clock: 1256
+07-28 12:56:18.747   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:56:18.748   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:56:19.331   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:56:19.331   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:57:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1257
+07-28 12:57:09.348   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:57:09.344   208   208 W Binder:208_1: type=1400 audit(0.0:206): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:57:09.360   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:57:09.356   208   208 W Binder:208_1: type=1400 audit(0.0:207): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:57:18.810   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:57:18.810   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:57:19.393   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:57:19.393   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:57:24.571   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:57:24.568   208   208 W Binder:208_1: type=1400 audit(0.0:208): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:57:24.575   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:57:24.572   208   208 W Binder:208_1: type=1400 audit(0.0:209): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:57:52.816   208   208 W Binder:208_1: type=1400 audit(0.0:210): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:57:52.820   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:57:52.824   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:57:52.820   208   208 W Binder:208_1: type=1400 audit(0.0:211): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:00.004   711   711 D KeyguardClockSwitch: Updating clock: 1258
+07-28 12:58:07.840   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:58:07.836   208   208 W Binder:208_1: type=1400 audit(0.0:212): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:07.843   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:58:07.840   208   208 W Binder:208_1: type=1400 audit(0.0:213): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:09.245   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:58:09.240   208   208 W Binder:208_1: type=1400 audit(0.0:214): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:09.251   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:58:09.248   208   208 W Binder:208_1: type=1400 audit(0.0:215): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:18.819   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:58:18.819   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:58:19.429   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:58:19.429   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 12:58:24.478   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 12:58:24.476   208   208 W Binder:208_1: type=1400 audit(0.0:216): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:24.482   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 12:58:24.480   208   208 W Binder:208_1: type=1400 audit(0.0:217): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 12:58:28.283   527  4292 D WifiNl80211Manager: Scan result ready event
+07-28 12:58:28.283   527  4292 D WifiNative: Scan result ready event
+07-28 12:59:00.006   711   711 D KeyguardClockSwitch: Updating clock: 1259
+07-28 12:59:18.825   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 12:59:18.825   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 12:59:19.489   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 12:59:19.489   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:00:00.003   711   711 D KeyguardClockSwitch: Updating clock: 100
+07-28 13:00:18.891   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 13:00:18.891   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 13:00:19.551   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 13:00:19.551   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:01:00.004   711   711 D KeyguardClockSwitch: Updating clock: 101
+07-28 13:01:08.290   527  4292 D WifiNl80211Manager: Scan result ready event
+07-28 13:01:08.290   527  4292 D WifiNative: Scan result ready event
+07-28 13:01:15.869     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+07-28 13:01:18.899   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 13:01:18.899   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 13:01:19.559   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 13:01:19.560   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:01:51.415  1215  4719 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+07-28 13:01:51.440   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:01:51.436   208   208 W Binder:208_1: type=1400 audit(0.0:218): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:01:51.445   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:01:51.444   208   208 W Binder:208_1: type=1400 audit(0.0:219): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:02:00.008   711   711 D KeyguardClockSwitch: Updating clock: 102
+07-28 13:02:06.688   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:02:06.684   208   208 W Binder:208_1: type=1400 audit(0.0:220): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:02:06.694   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:02:06.692   208   208 W Binder:208_1: type=1400 audit(0.0:221): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:02:18.931   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 13:02:18.931   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 13:02:19.579   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 13:02:19.580   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:03:00.006   711   711 D KeyguardClockSwitch: Updating clock: 103
+07-28 13:03:00.902   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:03:00.896   208   208 W Binder:208_1: type=1400 audit(0.0:222): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:00.909   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:03:00.904   208   208 W Binder:208_1: type=1400 audit(0.0:223): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:16.063   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:03:16.060   208   208 W Binder:208_1: type=1400 audit(0.0:224): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:16.070   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:03:16.068   208   208 W Binder:208_1: type=1400 audit(0.0:225): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:18.954   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 13:03:18.954   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 13:03:19.612   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 13:03:19.612   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:03:42.428   208   208 W Binder:208_1: type=1400 audit(0.0:226): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:42.430   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:03:42.432   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:03:42.432   208   208 W Binder:208_1: type=1400 audit(0.0:227): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:48.294   527  1202 D WifiNl80211Manager: Scan result ready event
+07-28 13:03:48.294   527  1202 D WifiNative: Scan result ready event
+07-28 13:03:57.536   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+07-28 13:03:57.532   208   208 W Binder:208_1: type=1400 audit(0.0:228): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18950 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:03:57.540   208   210 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+07-28 13:03:57.536   208   208 W Binder:208_1: type=1400 audit(0.0:229): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19013 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+07-28 13:04:00.004   711   711 D KeyguardClockSwitch: Updating clock: 104
+07-28 13:04:18.971   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-28 13:04:18.971   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-28 13:04:19.638   487   487 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-28 13:04:19.639   487   487 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-28 13:04:46.329     0     0 D logd    : logdr: UID=2000 GID=2000 PID=4844 n tail=0 logMask=99 pid=0 start=0ns timeout=0ns
